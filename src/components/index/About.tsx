@@ -95,9 +95,9 @@ export default function About() {
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
         },
         {
-            title: "NPM",
+            title: "DuckyScript",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"/>
+                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233041706283438211/image.png?ex=662ba713&is=662a5593&hm=1464ac21c70669b8f71a1a0be34ce17959d2bfc86b03afcd7ea8bed323e5dc4f&"/>
         },
         {
             title: "Visual Studio Code",
@@ -105,9 +105,9 @@ export default function About() {
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
         },
         {
-            title: "Insomnia",
+            title: "Flipper Zero",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/qr3zqlfckx6hkdj0nl.png"/>
+                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233042048215548005/qFlipper_macOS_256px_ugly.png?ex=662ba765&is=662a55e5&hm=cc9ec43f644dc4c7fb6096dc1e88ad76b3cd0517d5d6e85669f468e29ecfb2a9&"/>
         },
         {
             title: "Cloudflare",
@@ -115,14 +115,14 @@ export default function About() {
                        src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/me2uv8xk95n010sdwz.png"/>
         },
         {
-            title: "Hetzner",
+            title: "Swift",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/q4dzhs1beprvugs13m.png"/>
+                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233042629801807952/Swift-2-512.png?ex=662ba7ef&is=662a566f&hm=32991641c107512737d879645e211f507e3559011077dd604e90d196b8104ef5&"/>
         },
         {
-            title: "Porkbun",
+            title: "Terminal",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/z3xmhz3k1rc24l433c.png"/>
+                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233042928205692928/Terminalicon2.png?ex=662ba836&is=662a56b6&hm=790899a060e6bfb7b1350c496b0264e2ed49467a60fa1d81478829622b32869d&"/>
         },
         {
             title: "Vercel",
