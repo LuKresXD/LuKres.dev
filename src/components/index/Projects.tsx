@@ -16,10 +16,10 @@ export default function Projects() {
         </motion.h1>
         <ul className="grid sm:grid-cols-2 grid-cols-1 gap-4 mt-4">
           <ProjectCard
-            url="https://google.com"
-            title="Google"
-            description="Desciption"
-            image="https://media.discordapp.net/attachments/1225694526484643914/1232949355464359947/luminal_logo.jpg?ex=662b5111&is=6629ff91&hm=f4452cc2df53b9ef383cdd00430b6d7cde20298b56602c18fcafb54ce6acb7ca&=&format=webp&width=1011&height=1011"
+            url="https://lukres.dev/payloads"
+            title="RubberDucky Payloads"
+            description="All scripts created by me or partially by me in RubberDucky language are stored here. I tested them on Flipper Zero. For educational purposes"
+            image="https://cdn.discordapp.com/attachments/1225694526484643914/1233051073720352918/Z7KSHodItHk5UKKCgmWdP_badusb1_negate.png?ex=662bafcc&is=662a5e4c&hm=5897781e254de1083c02a6d7fa6d8783e04c0d20c75533482a0e0ee8a4fb2ceb&"
             delay={0.1}
             gradient="bg-gradient-to-br"
           />
