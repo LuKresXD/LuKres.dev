@@ -32,10 +32,10 @@ export default function Projects() {
             gradient="bg-gradient-to-bl"
           />
           <ProjectCard
-            url="https://google.com"
-            title="Google"
-            description="Desciption"
-            image="https://media.discordapp.net/attachments/1225694526484643914/1232949355464359947/luminal_logo.jpg?ex=662b5111&is=6629ff91&hm=f4452cc2df53b9ef383cdd00430b6d7cde20298b56602c18fcafb54ce6acb7ca&=&format=webp&width=1011&height=1011"
+            url="https://www.lukres.dev/minecraft"
+            title="Letovo SMP"
+            description="Letovo SMP is a school server of Minecraft. Now though it is working, it is not supported due to lack of time, but it was actively working and maintained for 2 years. Many plugins for it are written by me."
+            image="https://cdn.discordapp.com/attachments/1225694526484643914/1233113660969451642/Letovo_SMP_02_1.png?ex=662bea16&is=662a9896&hm=91753d33d0a612d76a402b39638f48f2d8880f625e9d96d356d7af60a8b49b3b&"
             delay={0.1}
             gradient="bg-gradient-to-tr"
           />
