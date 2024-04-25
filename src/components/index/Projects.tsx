@@ -19,7 +19,7 @@ export default function Projects() {
             url="https://www.lukres.dev/payloads"
             title="RubberDucky Payloads"
             description="All scripts created by me or partially by me in RubberDucky language are stored here. I tested them on Flipper Zero. For educational purposes"
-            image="https://cdn.discordapp.com/attachments/1225694526484643914/1233054878985879644/Z7KSHodItHk5UKKCgmWdP_badusb1_ne.png?ex=662bb358&is=662a61d8&hm=af748584198a7e5f8b460fe609bc488d98fb11425872d0b9c50b092e83ad6119&"
+            image="https://cdn.discordapp.com/attachments/1225694526484643914/1233097693346136164/f025f2a9_a4a3_44f5_ae48_45c6162c.png?ex=662bdb37&is=662a89b7&hm=64e58051d31706e594658bec7451afc0db46adad0a7babb4543dbf5f00383139&"
             delay={0.1}
             gradient="bg-gradient-to-br"
           />
