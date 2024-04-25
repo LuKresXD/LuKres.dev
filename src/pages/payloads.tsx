@@ -16,11 +16,6 @@ export default function Home() {
         setPageLoad(true)
     }, [])
 
-    function handleInput(e: any) {
-        setSearch(e.target.value.replaceAll(' ', '+'))
-    }
-
-
     return (
         <>
             <Head>
