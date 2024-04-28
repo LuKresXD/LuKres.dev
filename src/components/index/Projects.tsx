@@ -24,7 +24,7 @@ export default function Projects() {
             gradient="bg-gradient-to-br"
           />
           <ProjectCard
-            url="https://www.lukres.dev/home"
+            url="https://lukres.dev/home"
             title="LuKres.dev"
             description="This page :)"
             image="https://cdn.discordapp.com/attachments/1225694526484643914/1233057010178719804/CleanShot_2024-04-25_at_17.04.232x.png?ex=662bb554&is=662a63d4&hm=51ef0ac6885d78771ad8a420d18bc7a89fe4a4b899bba273875619c4633fea06&"
