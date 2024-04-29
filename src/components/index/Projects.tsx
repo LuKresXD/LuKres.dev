@@ -43,7 +43,7 @@ export default function Projects() {
             url="https://google.com"
             title="Google"
             description="Desciption"
-            image="https://media.discordapp.net/attachments/1225694526484643914/1232949355464359947/luminal_logo.jpg?ex=662b5111&is=6629ff91&hm=f4452cc2df53b9ef383cdd00430b6d7cde20298b56602c18fcafb54ce6acb7ca&=&format=webp&width=1011&height=1011"
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/eu4k5oug.jpg"
             delay={0.2}
             gradient="bg-gradient-to-tl"
           />
@@ -51,7 +51,7 @@ export default function Projects() {
             url="https://google.com"
             title="Google"
             description="Desciption"
-            image="https://media.discordapp.net/attachments/1225694526484643914/1232949355464359947/luminal_logo.jpg?ex=662b5111&is=6629ff91&hm=f4452cc2df53b9ef383cdd00430b6d7cde20298b56602c18fcafb54ce6acb7ca&=&format=webp&width=1011&height=1011"
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/eu4k5oug.jpg"
             delay={0.1}
             gradient="bg-gradient-to-br"
           />
@@ -59,7 +59,7 @@ export default function Projects() {
             url="https://google.com"
             title="Google"
             description="Desciption"
-            image="https://media.discordapp.net/attachments/1225694526484643914/1232949355464359947/luminal_logo.jpg?ex=662b5111&is=6629ff91&hm=f4452cc2df53b9ef383cdd00430b6d7cde20298b56602c18fcafb54ce6acb7ca&=&format=webp&width=1011&height=1011"
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/eu4k5oug.jpg"
             delay={0.2}
             gradient="bg-gradient-to-tl"
           />
