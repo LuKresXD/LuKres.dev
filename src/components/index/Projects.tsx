@@ -19,7 +19,7 @@ export default function Projects() {
             url="https://lukres.dev/payloads"
             title="RubberDucky Payloads"
             description="All scripts created by me or partially by me in RubberDucky language are stored here. I tested them on Flipper Zero. For educational purposes"
-            image="https://cdn.discordapp.com/attachments/1225694526484643914/1233097693346136164/f025f2a9_a4a3_44f5_ae48_45c6162c.png?ex=662bdb37&is=662a89b7&hm=64e58051d31706e594658bec7451afc0db46adad0a7babb4543dbf5f00383139&"
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/85nw8ufg.png"
             delay={0.1}
             gradient="bg-gradient-to-br"
           />
@@ -27,7 +27,7 @@ export default function Projects() {
             url="https://lukres.dev/home"
             title="LuKres.dev"
             description="This page :)"
-            image="https://cdn.discordapp.com/attachments/1225694526484643914/1233057010178719804/CleanShot_2024-04-25_at_17.04.232x.png?ex=662bb554&is=662a63d4&hm=51ef0ac6885d78771ad8a420d18bc7a89fe4a4b899bba273875619c4633fea06&"
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
             delay={0.2}
             gradient="bg-gradient-to-bl"
           />
@@ -35,7 +35,7 @@ export default function Projects() {
             url="https://discord.gg/ex8h77m49X"
             title="Letovo SMP"
             description="Letovo SMP is the Minecraft server of my school. Now though it is working, it is not supported due to lack of time, but it was actively working and maintained for 2 years."
-            image="https://cdn.discordapp.com/attachments/1225694526484643914/1233113660969451642/Letovo_SMP_02_1.png?ex=662bea16&is=662a9896&hm=91753d33d0a612d76a402b39638f48f2d8880f625e9d96d356d7af60a8b49b3b&"
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
             delay={0.1}
             gradient="bg-gradient-to-tr"
           />

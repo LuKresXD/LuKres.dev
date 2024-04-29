@@ -17,27 +17,27 @@ export default function About() {
         {
             title: "Nmap",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://media.discordapp.net/attachments/1225694526484643914/1233002761004781568/nmap-logo-256x256.png?ex=662b82ce&is=662a314e&hm=fa32ff40b1411cf39daf8aec90ca8f63d2d473ed1e204378ec8d4959cc29c595"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/aib44nde.png"/>
         },
         {
             title: "Wireshark",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233003338040344586/wireshark.png?ex=662b8357&is=662a31d7&hm=bc03c484141cadf9ad4bd484e065bf0c31cbf5b63872436c05209ef5784637b5&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/37nz0ybd.png"/>
         },
         {
             title: "John the Ripper",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233004727436972125/image_10.png?ex=662b84a3&is=662a3323&hm=6b7ac7b6aa98cd0ddb3aa3ae1fc0a201509ef6e19a626822e3a3c0f4209a3a37&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/qv6popoo.png"/>
         },
         {
             title: "Nessus",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233037728900186172/nessus-logo-e1475580279964_1.png?ex=662ba35f&is=662a51df&hm=619d63407852a24766e2ca54baac44a9425a491ab5a10b3ceac18fd1b8b3c438&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/8oofxt7g.png"/>
         },
         {
             title: "Metasploit",
             icon: <img draggable={false} loading="lazy" className="h-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233006508686442496/metasploit-logo_1-1-30.png?ex=662b864b&is=662a34cb&hm=086c2efd1041120648ea599f2fb00b63255b083af6434cef79a607633cb7839f&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/nm77gfrp.png"/>
         },
     ]
 
@@ -61,7 +61,7 @@ export default function About() {
         {
             title: "OpenCV",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233038106702254122/OpenCV_logo_no_text_.png?ex=662ba3b9&is=662a5239&hm=520721054aaed8e39fea3d7bb26433fb4247f143597a5cb1417fe47d8bf4a585&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/ztf1gyeq.png"/>
         },
         {
             title: "SQL",
@@ -79,7 +79,7 @@ export default function About() {
         {
             title: "Docker",
             icon: <img draggable={false} loading="lazy" className="h-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233039902942433402/5429470_1.png?ex=662ba565&is=662a53e5&hm=734bad424bc1208d0b10f1de540002be9bcb4fde303926d0f8a04815e9f1601d&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/vssieasx.png"/>
         },
     ]
 
@@ -97,7 +97,7 @@ export default function About() {
         {
             title: "DuckyScript",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233041706283438211/image.png?ex=662ba713&is=662a5593&hm=1464ac21c70669b8f71a1a0be34ce17959d2bfc86b03afcd7ea8bed323e5dc4f&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/wh9qs3vu.png"/>
         },
         {
             title: "Visual Studio Code",
@@ -107,7 +107,7 @@ export default function About() {
         {
             title: "Flipper Zero",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233042048215548005/qFlipper_macOS_256px_ugly.png?ex=662ba765&is=662a55e5&hm=cc9ec43f644dc4c7fb6096dc1e88ad76b3cd0517d5d6e85669f468e29ecfb2a9&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/0qakmo1p.png"/>
         },
         {
             title: "Cloudflare",
@@ -117,12 +117,12 @@ export default function About() {
         {
             title: "Swift",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233042629801807952/Swift-2-512.png?ex=662ba7ef&is=662a566f&hm=32991641c107512737d879645e211f507e3559011077dd604e90d196b8104ef5&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/apyhav8m.png"/>
         },
         {
             title: "Terminal",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233042928205692928/Terminalicon2.png?ex=662ba836&is=662a56b6&hm=790899a060e6bfb7b1350c496b0264e2ed49467a60fa1d81478829622b32869d&"/>
+                       src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/kblm9g2n.png"/>
         },
         {
             title: "Vercel",
