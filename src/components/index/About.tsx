@@ -74,7 +74,7 @@ export default function About() {
         {
             title: "Blender",
             icon: <img draggable={false} loading="lazy" className="h-6"
-                       src="https://cdn.discordapp.com/attachments/1225694526484643914/1233038935899377797/2503px-Blender_logo_no_text.png?ex=662ba47f&is=662a52ff&hm=f5fbe7b6d058ce1b7c90b74314051e8981422030e3d6962b7722ee17829e813c&"/>
+                       src="https://letovo.is-braindead.online/q/gonnu1rc.png"/>
         },
         {
             title: "Docker",
