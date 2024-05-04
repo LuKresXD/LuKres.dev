@@ -32,14 +32,6 @@ export default function Projects() {
             gradient="bg-gradient-to-bl"
           />
           <ProjectCard
-            url="https://discord.gg/ex8h77m49X"
-            title="Let ovo SMP"
-            description="Letovo SMP is the Minecraft server of my school. Now though it is working, it is not supported due to lack of time, but it was actively working and maintained for 2 years."
-            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
-            delay={0.1}
-            gradient="bg-gradient-to-tr"
-          />
-          <ProjectCard
             url="https://phishing.lukres.dev/"
             title="Phishing Website Detector"
             description="Phishing Website Detector is a website designed to analyze URLs for security risks, helping users discern safe from potentially harmful websites through real-time scanning."
@@ -48,20 +40,12 @@ export default function Projects() {
             gradient="bg-gradient-to-tl"
           />
           <ProjectCard
-            url="https://google.com"
-            title="Google"
-            description="Desciption"
-            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/eu4k5oug.jpg"
+            url="https://discord.gg/ex8h77m49X"
+            title="Letovo SMP"
+            description="Letovo SMP is the Minecraft server of my school. Now though it is working, it is not supported due to lack of time, but it was actively working and maintained for 2 years."
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
             delay={0.1}
-            gradient="bg-gradient-to-br"
-          />
-          <ProjectCard
-            url="https://google.com"
-            title="Google"
-            description="Desciption"
-            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/eu4k5oug.jpg"
-            delay={0.2}
-            gradient="bg-gradient-to-tl"
+            gradient="bg-gradient-to-tr"
           />
         </ul>
       </section>
