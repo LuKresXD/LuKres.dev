@@ -19,7 +19,7 @@ export default function Projects() {
             url="https://phishing.lukres.dev/"
             title="Phishing Website Detector"
             description="Phishing Website Detector is a website designed to analyze URLs for security risks, helping users discern safe from potentially harmful websites through real-time scanning."
-            image="https://i.postimg.cc/ncmdYM3R/Clean-Shot-2024-05-04-at-15-22-092x.png"
+            image="https://i.postimg.cc/gJmSGXLt/Clean-Shot-2024-05-06-at-10-46-402x.png"
             delay={0.2}
             gradient="bg-gradient-to-tl"
           />
