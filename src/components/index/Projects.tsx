@@ -16,6 +16,14 @@ export default function Projects() {
         </motion.h1>
         <ul className="grid sm:grid-cols-2 grid-cols-1 gap-4 mt-4">
           <ProjectCard
+            url="https://phishing.lukres.dev/"
+            title="Phishing Website Detector"
+            description="Phishing Website Detector is a website designed to analyze URLs for security risks, helping users discern safe from potentially harmful websites through real-time scanning."
+            image="https://i.postimg.cc/ncmdYM3R/Clean-Shot-2024-05-04-at-15-22-092x.png"
+            delay={0.2}
+            gradient="bg-gradient-to-tl"
+          />
+          <ProjectCard
             url="https://lukres.dev/payloads"
             title="RubberDucky Payloads"
             description="All scripts created by me or partially by me in RubberDucky language are stored here. I tested them on Flipper Zero. For educational purposes"
@@ -30,14 +38,6 @@ export default function Projects() {
             image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
             delay={0.2}
             gradient="bg-gradient-to-bl"
-          />
-          <ProjectCard
-            url="https://phishing.lukres.dev/"
-            title="Phishing Website Detector"
-            description="Phishing Website Detector is a website designed to analyze URLs for security risks, helping users discern safe from potentially harmful websites through real-time scanning."
-            image="https://i.postimg.cc/ncmdYM3R/Clean-Shot-2024-05-04-at-15-22-092x.png"
-            delay={0.2}
-            gradient="bg-gradient-to-tl"
           />
           <ProjectCard
             url="https://discord.gg/ex8h77m49X"
