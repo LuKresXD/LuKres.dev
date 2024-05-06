@@ -24,7 +24,7 @@ export default function Projects() {
             gradient="bg-gradient-to-tl"
           />
           <ProjectCard
-            url="https://lukres.dev/payloads"
+            url="https://payloads.lukres.dev"
             title="RubberDucky Payloads"
             description="All scripts created by me or partially by me in RubberDucky language are stored here. I tested them on Flipper Zero. For educational purposes"
             image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/85nw8ufg.png"
