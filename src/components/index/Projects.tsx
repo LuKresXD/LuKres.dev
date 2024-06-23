@@ -40,18 +40,18 @@ export default function Projects() {
             gradient="bg-gradient-to-br"
           />
           <ProjectCard
-            url="https://lukres.dev/home"
-            title="LuKres.dev"
-            description="This page :)"
-            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
-            delay={0.4}
-            gradient="bg-gradient-to-bl"
-          />
-          <ProjectCard
             url="https://t.me/cryptopitsa"
             title="CryptoPizza"
             description="CryptoPizza is my Telegram channel about the latest crypto activities, including airdrops, ambassador programs, farming opportunities, and more. Join us for exclusive updates and insights in the crypto world 🍕"
             image="https://i.postimg.cc/W15JL1w7/d6ec5059-f9b9-40e9-8437-30a076bec8a8-2.png"
+            delay={0.4}
+            gradient="bg-gradient-to-bl"
+          />
+          <ProjectCard
+            url="https://lukres.dev/home"
+            title="LuKres.dev"
+            description="This page :)"
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
             delay={0.5}
             gradient="bg-gradient-to-bl"
           />
