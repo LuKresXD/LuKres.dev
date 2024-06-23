@@ -32,20 +32,36 @@ export default function Projects() {
             gradient="bg-gradient-to-br"
           />
           <ProjectCard
+            url="https://lukres.dev/cas"
+            title="Microfluidics droplet-based reactor"
+            description="For my CAS project, I participated in engineering a microfluidics droplet-based reactor, developing peristaltic pump systems and creating silica chips for liposome formation, adapting solutions due to material constraints."
+            image="https://i.postimg.cc/Dzm423C3/photo-2024-05-14-22-38-01-2.jpg"
+            delay={0.1}
+            gradient="bg-gradient-to-tr"
+          />
+          <ProjectCard
             url="https://lukres.dev/home"
             title="LuKres.dev"
             description="This page :)"
             image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
-            delay={0.1}
+            delay={0.2}
             gradient="bg-gradient-to-bl"
           />
           <ProjectCard
             url="https://t.me/cryptopitsa"
             title="CryptoPizza"
             description="CryptoPizza is my Telegram channel about the latest crypto activities, including airdrops, ambassador programs, farming opportunities, and more. Join us for exclusive updates and insights in the crypto world 🍕"
-            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
-            delay={0.2}
+            image="https://i.postimg.cc/W15JL1w7/d6ec5059-f9b9-40e9-8437-30a076bec8a8-2.png"
+            delay={0.1}
             gradient="bg-gradient-to-bl"
+          />
+          <ProjectCard
+            url="https://discord.gg/ex8h77m49X"
+            title="Letovo SMP"
+            description="Letovo SMP is the Minecraft server of my school. Now though it is working, it is not supported due to lack of time, but it was actively working and maintained for 2 years."
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
+            delay={0.2}
+            gradient="bg-gradient-to-tr"
           />
           <ProjectCard
             url=""
@@ -62,22 +78,6 @@ export default function Projects() {
             image=""
             delay={0.2}
             gradient="bg-gradient-to-tl"
-          />
-          <ProjectCard
-            url="https://discord.gg/ex8h77m49X"
-            title="Letovo SMP"
-            description="Letovo SMP is the Minecraft server of my school. Now though it is working, it is not supported due to lack of time, but it was actively working and maintained for 2 years."
-            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
-            delay={0.1}
-            gradient="bg-gradient-to-tr"
-          />
-          <ProjectCard
-            url=""
-            title="Microfluidics droplet-based reactor"
-            description="For my CAS project, I participated in engineering a microfluidics droplet-based reactor, developing peristaltic pump systems and creating silica chips for liposome formation, adapting solutions due to material constraints."
-            image="https://i.postimg.cc/zXyjPTkj/photo-2024-05-14-22-38-01-1.jpg"
-            delay={0.2}
-            gradient="bg-gradient-to-tr"
           />
         </ul>
       </section>
