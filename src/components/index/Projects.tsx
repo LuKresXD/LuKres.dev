@@ -20,7 +20,7 @@ export default function Projects() {
             title="Phishing Website Detector"
             description="Phishing Website Detector is a website designed to analyze URLs for security risks, helping users discern safe from potentially harmful websites through real-time scanning."
             image="https://i.postimg.cc/gJmSGXLt/Clean-Shot-2024-05-06-at-10-46-402x.png"
-            delay={0.2}
+            delay={0.1}
             gradient="bg-gradient-to-tl"
           />
           <ProjectCard
@@ -28,7 +28,7 @@ export default function Projects() {
             title="RubberDucky Payloads"
             description="All scripts created by me or partially by me in RubberDucky language are stored here. I tested them on Flipper Zero. For educational purposes"
             image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/85nw8ufg.png"
-            delay={0.1}
+            delay={0.2}
             gradient="bg-gradient-to-br"
           />
           <ProjectCard
@@ -36,8 +36,32 @@ export default function Projects() {
             title="LuKres.dev"
             description="This page :)"
             image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
+            delay={0.1}
+            gradient="bg-gradient-to-bl"
+          />
+          <ProjectCard
+            url="https://t.me/cryptopitsa"
+            title="CryptoPizza"
+            description="CryptoPizza is my Telegram channel about the latest crypto activities, including airdrops, ambassador programs, farming opportunities, and more. Join us for exclusive updates and insights in the crypto world 🍕"
+            image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
             delay={0.2}
             gradient="bg-gradient-to-bl"
+          />
+          <ProjectCard
+            url=""
+            title="IN DEVELOPMENT"
+            description="There's going to be an online platform for learning different skills. The main focus of the platform will be memory training and development"
+            image=""
+            delay={0.1}
+            gradient="bg-gradient-to-tl"
+          />
+          <ProjectCard
+            url=""
+            title="IN DEVELOPMENT"
+            description="Chat-roulette for academic questions. Students ask questions, professors answer via video calls. Categories and ratings system. Solving technical and academic problems in real-time."
+            image=""
+            delay={0.2}
+            gradient="bg-gradient-to-tl"
           />
           <ProjectCard
             url="https://discord.gg/ex8h77m49X"
@@ -45,6 +69,14 @@ export default function Projects() {
             description="Letovo SMP is the Minecraft server of my school. Now though it is working, it is not supported due to lack of time, but it was actively working and maintained for 2 years."
             image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
             delay={0.1}
+            gradient="bg-gradient-to-tr"
+          />
+          <ProjectCard
+            url=""
+            title="Microfluidics droplet-based reactor"
+            description="For my CAS project, I participated in engineering a microfluidics droplet-based reactor, developing peristaltic pump systems and creating silica chips for liposome formation, adapting solutions due to material constraints."
+            image="https://i.postimg.cc/zXyjPTkj/photo-2024-05-14-22-38-01-1.jpg"
+            delay={0.2}
             gradient="bg-gradient-to-tr"
           />
         </ul>
