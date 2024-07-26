@@ -37,3 +37,5 @@ next-env.d.ts
 
 
 !/src/pages/ml.tsx
+!/project_structure.txt
+!/claude_upload/
