@@ -1,10 +1,20 @@
-import AboutCard from "@/components/AboutCard";
-import {Tech} from "../../../typings";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import { Tech } from "../../../typings";
+
+const DynamicAboutCard = dynamic(() => import("@/components/AboutCard"), {
+    loading: () => <div className="animate-pulse bg-secondary h-64 rounded-lg"></div>,
+});
 
 export default function About() {
+    const [isClient, setIsClient] = useState(false);
 
-    let frontendTech: Tech[] = [
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    const frontendTech: Tech[] = [
         {
             title: "Kali Linux",
             icon: <svg className="h-6 w-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
@@ -41,7 +51,7 @@ export default function About() {
         },
     ]
 
-    let backendTech: Tech[] = [
+    const backendTech: Tech[] = [
         {
             title: "Unreal Engine",
             icon: <svg className="h-6 w-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
@@ -83,7 +93,7 @@ export default function About() {
         },
     ]
 
-    let otherTech: Tech[] = [
+    const otherTech: Tech[] = [
         {
             title: "Git",
             icon: <img draggable={false} loading="lazy" className="h-6 w-6"
@@ -138,6 +148,10 @@ export default function About() {
         },
     ]
 
+    if (!isClient) {
+        return null;
+    }
+
     return (
         <>
             <section id='about' className="max-w-4xl w-full flex flex-col mx-auto">
@@ -151,7 +165,7 @@ export default function About() {
                     About Me
                 </motion.h1>
                 <ul className="grid grid-cols-2 gap-4 mt-4">
-                    <AboutCard
+                    <DynamicAboutCard
                         title="Overall"
                         description="I've been interested in programming since I was 12 years old, but I haven't found my field yet. I am interested in almost everything from building websites and games, to cybersecurity and AI. By the end of my studies, I hope to launch my own startup as this is my lifelong passion. I enjoy creating things and find great satisfaction when others genuinely enjoy and appreciate the end product."
                         direction="top"
@@ -159,7 +173,7 @@ export default function About() {
                         delay={0.1}
                         gradient="bg-gradient-to-tl"
                     />
-                    <AboutCard
+                    <DynamicAboutCard
                         title="Cybersecurity"
                         description="I don't have a lot of experience in cybersecurity, but I'm currently taking a course on Hack The Box and almost passed it."
                         tech={frontendTech}
@@ -168,16 +182,16 @@ export default function About() {
                         delay={0.15}
                         gradient="bg-gradient-to-br"
                     />
-                    <AboutCard
+                    <DynamicAboutCard
                         title="Development"
-                        description="I have about 3 years of experience with  development, and I have worked with a variety of different softwares and libraries."
+                        description="I have about 3 years of experience with development, and I have worked with a variety of different softwares and libraries."
                         tech={backendTech}
                         direction="right"
                         span={1}
                         delay={0.2}
                         gradient="bg-gradient-to-tl"
                     />
-                    <AboutCard
+                    <DynamicAboutCard
                         title="Other Technologies"
                         description="When it comes to the development process, I use a wide variety of tools, services, and technologies."
                         tech={otherTech}

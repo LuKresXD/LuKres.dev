@@ -40,19 +40,11 @@ export default function Projects() {
             gradient="bg-gradient-to-br"
           />
           <ProjectCard
-            url="https://t.me/cryptopitsa"
-            title="CryptoPizza"
-            description="CryptoPizza is my Telegram channel about the latest crypto activities, including airdrops, ambassador programs, farming opportunities, and more. Join us for exclusive updates and insights in the crypto world 🍕"
-            image="https://i.postimg.cc/W15JL1w7/d6ec5059-f9b9-40e9-8437-30a076bec8a8-2.png"
-            delay={0.4}
-            gradient="bg-gradient-to-bl"
-          />
-          <ProjectCard
             url="https://lukres.dev/home"
             title="LuKres.dev"
             description="This page :)"
             image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
-            delay={0.5}
+            delay={0.4}
             gradient="bg-gradient-to-bl"
           />
           <ProjectCard
@@ -60,23 +52,15 @@ export default function Projects() {
             title="Letovo SMP"
             description="Letovo SMP is the Minecraft server of my school. Now though it is working, it is not supported due to lack of time, but it was actively working and maintained for 2 years."
             image="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
-            delay={0.6}
+            delay={0.5}
             gradient="bg-gradient-to-tr"
-          />
-          <ProjectCard
-            url=""
-            title="IN DEVELOPMENT"
-            description="There's going to be an online platform for learning different skills. The main focus of the platform will be memory training and development"
-            image=""
-            delay={0.7}
-            gradient="bg-gradient-to-tl"
           />
           <ProjectCard
             url=""
             title="IN DEVELOPMENT"
             description="Chat-roulette for academic questions. Students ask questions, professors answer via video calls. Categories and ratings system. Solving technical and academic problems in real-time."
             image=""
-            delay={0.8}
+            delay={0.6}
             gradient="bg-gradient-to-tl"
           />
         </ul>

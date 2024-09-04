@@ -1,6 +1,17 @@
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect } from 'react';
 
 export default function Navbar() {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const handleClickScroll = () => {
         const element = document.getElementById('about');
@@ -26,11 +37,12 @@ export default function Navbar() {
 
     return (
         <>
-            <motion.header
-                className="flex justify-center items-center w-full fixed px-4 top-0 z-10 pt-4"
-                initial={{ transform: 'translateY(-30px)', opacity: 0 }}
-                animate={{ transform: 'translateY(0px)', opacity: 100 }}
-                transition={{ duration: 0.5, delay: 0.1, ease: [0.39, 0.21, 0.12, 0.96], }}
+            <AnimatePresence>
+                <motion.header
+                    className={`flex justify-center items-center w-full fixed px-4 top-0 z-10 pt-4 transition-all duration-300 ${isScrolled ? 'bg-primary/80 backdrop-blur-md' : ''}`}
+                    initial={{ y: -100 }}
+                    animate={{ y: 0 }}
+                    transition={{ duration: 0.5 }}
             >
                 <nav style={{ boxShadow: '0 0 30px 2.5px #0a0a0a' }} className="flex h-14 max-w-[46rem] w-screen bg-gradient-to-br from-primary/90 to to-secondary/90 backdrop-blur-md rounded-lg border-1 border-accent px-4">
                     <div className="flex flex-row items-center justify-between w-full">
@@ -50,7 +62,8 @@ export default function Navbar() {
                         </div>
                     </div>
                 </nav>
-            </motion.header>
+                </motion.header>
+            </AnimatePresence>
         </>
     );
 }
