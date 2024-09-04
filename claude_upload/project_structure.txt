@@ -1,0 +1,180 @@
+.
+├── .DS_Store
+├── .gitignore
+├── .idea
+│   ├── aws.xml
+│   ├── inspectionProfiles
+│   │   └── Project_Default.xml
+│   ├── lukres.dev.iml
+│   ├── material_theme_project_new.xml
+│   ├── modules.xml
+│   ├── vcs.xml
+│   └── workspace.xml
+├── .next
+│   ├── build-manifest.json
+│   ├── cache
+│   │   ├── .tsbuildinfo
+│   │   ├── swc
+│   │   │   └── plugins
+│   │   │       └── v7_macos_aarch64_0.104.41
+│   │   └── webpack
+│   │       ├── client-development
+│   │       │   ├── 0.pack.gz
+│   │       │   ├── 1.pack.gz
+│   │       │   ├── 10.pack.gz
+│   │       │   ├── 11.pack.gz
+│   │       │   ├── 2.pack.gz
+│   │       │   ├── 3.pack.gz
+│   │       │   ├── 4.pack.gz
+│   │       │   ├── 5.pack.gz
+│   │       │   ├── 6.pack.gz
+│   │       │   ├── 7.pack.gz
+│   │       │   ├── 8.pack.gz
+│   │       │   ├── 9.pack.gz
+│   │       │   ├── index.pack.gz
+│   │       │   └── index.pack.gz.old
+│   │       ├── client-development-fallback
+│   │       │   ├── 0.pack.gz
+│   │       │   └── index.pack.gz
+│   │       ├── client-production
+│   │       │   ├── 0.pack
+│   │       │   ├── 1.pack
+│   │       │   ├── 2.pack
+│   │       │   ├── index.pack
+│   │       │   └── index.pack.old
+│   │       ├── server-development
+│   │       │   ├── 0.pack.gz
+│   │       │   ├── 1.pack.gz
+│   │       │   ├── 2.pack.gz
+│   │       │   ├── 3.pack.gz
+│   │       │   ├── 4.pack.gz
+│   │       │   ├── 5.pack.gz
+│   │       │   ├── 6.pack.gz
+│   │       │   ├── 7.pack.gz
+│   │       │   ├── 8.pack.gz
+│   │       │   ├── index.pack.gz
+│   │       │   └── index.pack.gz.old
+│   │       └── server-production
+│   │           ├── 0.pack
+│   │           ├── 1.pack
+│   │           ├── index.pack
+│   │           └── index.pack.old
+│   ├── package.json
+│   ├── react-loadable-manifest.json
+│   ├── server
+│   │   ├── _error.js
+│   │   ├── middleware-build-manifest.js
+│   │   ├── middleware-manifest.json
+│   │   ├── middleware-react-loadable-manifest.js
+│   │   ├── next-font-manifest.js
+│   │   ├── next-font-manifest.json
+│   │   ├── pages
+│   │   │   ├── _app.js
+│   │   │   ├── _document.js
+│   │   │   ├── _error.js
+│   │   │   ├── cas.js
+│   │   │   └── index.js
+│   │   ├── pages-manifest.json
+│   │   ├── vendor-chunks
+│   │   │   ├── @swc.js
+│   │   │   └── next.js
+│   │   └── webpack-runtime.js
+│   ├── static
+│   │   ├── chunks
+│   │   │   ├── _error.js
+│   │   │   ├── main.js
+│   │   │   ├── pages
+│   │   │   │   ├── _app.js
+│   │   │   │   ├── _error.js
+│   │   │   │   ├── cas.js
+│   │   │   │   └── index.js
+│   │   │   ├── polyfills.js
+│   │   │   ├── react-refresh.js
+│   │   │   └── webpack.js
+│   │   ├── development
+│   │   │   ├── _buildManifest.js
+│   │   │   └── _ssgManifest.js
+│   │   └── webpack
+│   │       ├── 0411912bd01188db.webpack.hot-update.json
+│   │       ├── 122fb094514a5371.webpack.hot-update.json
+│   │       ├── 4b023dab73ad458a.webpack.hot-update.json
+│   │       ├── 633457081244afec._.hot-update.json
+│   │       ├── 656997b177180c4e.webpack.hot-update.json
+│   │       ├── 79fe9aaa3abe926e.webpack.hot-update.json
+│   │       ├── 8bdff6cd33a0f9f5.webpack.hot-update.json
+│   │       ├── 950551ca01f2db38.webpack.hot-update.json
+│   │       ├── a327ccb00cbd768a.webpack.hot-update.json
+│   │       ├── a4d990740ea4c59a.webpack.hot-update.json
+│   │       ├── a9a4057b35ea6628.webpack.hot-update.json
+│   │       ├── aebe1abcf03a8305.webpack.hot-update.json
+│   │       ├── e0603cea5fbdcee4.webpack.hot-update.json
+│   │       ├── ebcc8f466ec8ac6d.webpack.hot-update.json
+│   │       ├── effb8704df67b8f1.webpack.hot-update.json
+│   │       ├── pages
+│   │       │   ├── cas.656997b177180c4e.hot-update.js
+│   │       │   ├── cas.79fe9aaa3abe926e.hot-update.js
+│   │       │   ├── cas.950551ca01f2db38.hot-update.js
+│   │       │   ├── cas.effb8704df67b8f1.hot-update.js
+│   │       │   ├── index.0411912bd01188db.hot-update.js
+│   │       │   ├── index.122fb094514a5371.hot-update.js
+│   │       │   ├── index.4b023dab73ad458a.hot-update.js
+│   │       │   ├── index.8bdff6cd33a0f9f5.hot-update.js
+│   │       │   ├── index.a327ccb00cbd768a.hot-update.js
+│   │       │   ├── index.a4d990740ea4c59a.hot-update.js
+│   │       │   ├── index.a9a4057b35ea6628.hot-update.js
+│   │       │   └── index.aebe1abcf03a8305.hot-update.js
+│   │       ├── webpack.0411912bd01188db.hot-update.js
+│   │       ├── webpack.122fb094514a5371.hot-update.js
+│   │       ├── webpack.4b023dab73ad458a.hot-update.js
+│   │       ├── webpack.656997b177180c4e.hot-update.js
+│   │       ├── webpack.79fe9aaa3abe926e.hot-update.js
+│   │       ├── webpack.8bdff6cd33a0f9f5.hot-update.js
+│   │       ├── webpack.950551ca01f2db38.hot-update.js
+│   │       ├── webpack.a327ccb00cbd768a.hot-update.js
+│   │       ├── webpack.a4d990740ea4c59a.hot-update.js
+│   │       ├── webpack.a9a4057b35ea6628.hot-update.js
+│   │       ├── webpack.aebe1abcf03a8305.hot-update.js
+│   │       ├── webpack.e0603cea5fbdcee4.hot-update.js
+│   │       ├── webpack.ebcc8f466ec8ac6d.hot-update.js
+│   │       └── webpack.effb8704df67b8f1.hot-update.js
+│   └── trace
+├── README.md
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── project_structure.txt
+├── public
+│   ├── favicon.ico
+│   └── me.png
+├── src
+│   ├── .DS_Store
+│   ├── components
+│   │   ├── AboutCard.tsx
+│   │   ├── Divider.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── ProjectCard.tsx
+│   │   ├── SocialIcon.tsx
+│   │   ├── TechBadge.tsx
+│   │   └── index
+│   │       ├── About.tsx
+│   │       ├── Footer.tsx
+│   │       ├── Hero.tsx
+│   │       └── Projects.tsx
+│   ├── pages
+│   │   ├── _app.tsx
+│   │   ├── _document.tsx
+│   │   ├── api
+│   │   ├── cas.tsx
+│   │   ├── home.tsx
+│   │   ├── index.tsx
+│   │   └── ml.tsx
+│   └── styles
+│       └── globals.css
+├── tailwind.config.ts
+├── tsconfig.json
+└── typings
+    └── index.d.ts
+
+31 directories, 147 files
