@@ -47,7 +47,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
               delay={0.5}
             />
             <SocialIcon
-              url="https://namemc.com/profile/lukres"
+              url="https://www.last.fm/user/LuKresXD"
               icon={<svg viewBox="-8 -8 16 16" className='w-7 h-7 fill-black' shapeRendering="crispEdges" ><path d="M-5-5L+3-5L+3-3L+5-3L+5+5L+3+5L+3-3L-3-3L-3+5L-5+5"></path></svg>}
               delay={0.6}
             />
