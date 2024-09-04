@@ -66,6 +66,7 @@
 │   │       │   ├── 13.pack.gz
 │   │       │   ├── 14.pack.gz
 │   │       │   ├── 15.pack.gz
+│   │       │   ├── 16.pack.gz
 │   │       │   ├── 2.pack.gz
 │   │       │   ├── 3.pack.gz
 │   │       │   ├── 4.pack.gz
@@ -126,17 +127,21 @@
 │   │       ├── 1add8f4117b0c8a4.webpack.hot-update.json
 │   │       ├── 1cb6e42605ed23dd.webpack.hot-update.json
 │   │       ├── 32392b8dcd361324.webpack.hot-update.json
+│   │       ├── 380bd31b35af54ee.webpack.hot-update.json
+│   │       ├── 38a36e21d048cffd.webpack.hot-update.json
 │   │       ├── 3c7b61ec16b0bd85.webpack.hot-update.json
 │   │       ├── 5dd348cdd30e2b85.webpack.hot-update.json
 │   │       ├── 5f8be66f5be2d762.webpack.hot-update.json
 │   │       ├── 624a48ec1f0c617d.webpack.hot-update.json
 │   │       ├── 633457081244afec._.hot-update.json
 │   │       ├── 69ec4611d2615903.webpack.hot-update.json
+│   │       ├── 836183c15cf6e211.webpack.hot-update.json
 │   │       ├── 854f949179722ec8.webpack.hot-update.json
 │   │       ├── a2d9c8ac82215369.webpack.hot-update.json
 │   │       ├── a3c322b90078aff3.webpack.hot-update.json
 │   │       ├── c0f1e38e00f30ddb.webpack.hot-update.json
 │   │       ├── e4b64cf697610eb9.webpack.hot-update.json
+│   │       ├── ed431566d86b0471.webpack.hot-update.json
 │   │       ├── pages
 │   │       │   ├── _app.1cb6e42605ed23dd.hot-update.js
 │   │       │   ├── _app.32392b8dcd361324.hot-update.js
@@ -147,10 +152,14 @@
 │   │       │   ├── index.0f3043ecdd588989.hot-update.js
 │   │       │   ├── index.10a6a350c923925d.hot-update.js
 │   │       │   ├── index.1add8f4117b0c8a4.hot-update.js
+│   │       │   ├── index.380bd31b35af54ee.hot-update.js
+│   │       │   ├── index.38a36e21d048cffd.hot-update.js
 │   │       │   ├── index.3c7b61ec16b0bd85.hot-update.js
 │   │       │   ├── index.5f8be66f5be2d762.hot-update.js
 │   │       │   ├── index.624a48ec1f0c617d.hot-update.js
-│   │       │   └── index.854f949179722ec8.hot-update.js
+│   │       │   ├── index.836183c15cf6e211.hot-update.js
+│   │       │   ├── index.854f949179722ec8.hot-update.js
+│   │       │   └── index.ed431566d86b0471.hot-update.js
 │   │       ├── webpack.044bafa1d8d3b298.hot-update.js
 │   │       ├── webpack.06c5c5ac42bdbacd.hot-update.js
 │   │       ├── webpack.0f3043ecdd588989.hot-update.js
@@ -158,47 +167,22 @@
 │   │       ├── webpack.1add8f4117b0c8a4.hot-update.js
 │   │       ├── webpack.1cb6e42605ed23dd.hot-update.js
 │   │       ├── webpack.32392b8dcd361324.hot-update.js
+│   │       ├── webpack.380bd31b35af54ee.hot-update.js
+│   │       ├── webpack.38a36e21d048cffd.hot-update.js
 │   │       ├── webpack.3c7b61ec16b0bd85.hot-update.js
 │   │       ├── webpack.5dd348cdd30e2b85.hot-update.js
 │   │       ├── webpack.5f8be66f5be2d762.hot-update.js
 │   │       ├── webpack.624a48ec1f0c617d.hot-update.js
 │   │       ├── webpack.69ec4611d2615903.hot-update.js
+│   │       ├── webpack.836183c15cf6e211.hot-update.js
 │   │       ├── webpack.854f949179722ec8.hot-update.js
 │   │       ├── webpack.a2d9c8ac82215369.hot-update.js
 │   │       ├── webpack.a3c322b90078aff3.hot-update.js
 │   │       ├── webpack.c0f1e38e00f30ddb.hot-update.js
-│   │       └── webpack.e4b64cf697610eb9.hot-update.js
+│   │       ├── webpack.e4b64cf697610eb9.hot-update.js
+│   │       └── webpack.ed431566d86b0471.hot-update.js
 │   └── trace
 ├── README.md
-├── claude_upload
-│   ├── About.tsx
-│   ├── AboutCard.tsx
-│   ├── Divider.tsx
-│   ├── ErrorBoundary.tsx
-│   ├── Footer.tsx
-│   ├── Hero.tsx
-│   ├── LoadingScreen.tsx
-│   ├── Navbar.tsx
-│   ├── ProjectCard.tsx
-│   ├── Projects.tsx
-│   ├── README.md
-│   ├── ScrollToTop.tsx
-│   ├── SocialIcon.tsx
-│   ├── TechBadge.tsx
-│   ├── _app.tsx
-│   ├── _document.tsx
-│   ├── cas.tsx
-│   ├── globals.css
-│   ├── home.tsx
-│   ├── index.d.ts
-│   ├── index.tsx
-│   ├── ml.tsx
-│   ├── next-env.d.ts
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── project_structure.txt
-│   ├── tailwind.config.ts
-│   └── tsconfig.json
 ├── next-env.d.ts
 ├── next.config.mjs
 ├── package-lock.json
@@ -240,4 +224,4 @@
 └── typings
     └── index.d.ts
 
-39 directories, 202 files
+38 directories, 187 files

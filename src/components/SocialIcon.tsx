@@ -1,7 +1,14 @@
 import { motion } from "framer-motion";
 import { ReactNode } from "react";
 
-export default function SocialIcon({ url, icon, delay, title }: { url: string, icon: ReactNode, delay: number, title: string }) {
+interface SocialIconProps {
+    url: string;
+    icon: ReactNode;
+    delay: number;
+    title: string;
+}
+
+export default function SocialIcon({ url, icon, delay, title }: SocialIconProps) {
     return (
         <>
             <motion.li

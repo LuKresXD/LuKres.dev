@@ -1,7 +1,12 @@
 import { motion } from "framer-motion";
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
-import { Tech } from "../../../typings";
+import { ReactNode } from 'react';
+
+interface Tech {
+    title: string;
+    icon: ReactNode;
+}
 
 const DynamicAboutCard = dynamic(() => import("@/components/AboutCard"), {
     loading: () => <div className="animate-pulse bg-secondary h-64 rounded-lg"></div>,
