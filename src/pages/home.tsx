@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import { Fragment, useEffect, useState } from 'react';
 
-
-
 export default function Home() {
 
 
