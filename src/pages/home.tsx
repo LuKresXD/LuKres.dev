@@ -1,8 +1,5 @@
 import Head from 'next/head';
 import { Fragment, useEffect, useState } from 'react';
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-import { Listbox, Transition } from '@headlessui/react'
-import { useRouter } from 'next/router';
 
 
 
