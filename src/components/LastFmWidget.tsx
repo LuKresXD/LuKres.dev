@@ -53,12 +53,12 @@ const LastFmWidget: React.FC<LastFmWidgetProps> = ({ delay }) => {
     }, []);
 
     return (
-        <motion.div
-            className="bg-secondary rounded-lg shadow-lg backdrop-blur-sm border border-accent/20 h-[46px] flex items-center overflow-hidden"
-            initial={{ transform: 'translateY(-30px)', opacity: 0 }}
-            whileInView={{ transform: 'translateY(0px)', opacity: 100 }}
-            transition={{ duration: 0.5, delay, ease: [0.39, 0.21, 0.12, 0.96] }}
-            viewport={{ amount: 0.1, once: true }}
+        <motion.li
+            className="flex flex-col"
+            initial={{transform: 'translateY(-30px)', opacity: 0}}
+            whileInView={{transform: 'translateY(0px)', opacity: 100}}
+            transition={{duration: 0.5, delay: delay, ease: [0.39, 0.21, 0.12, 0.96],}}
+            viewport={{amount: 0.1, once: true}}
         >
             {loading ? (
                 <div className="animate-pulse flex items-center w-full h-full">
@@ -69,20 +69,23 @@ const LastFmWidget: React.FC<LastFmWidgetProps> = ({ delay }) => {
                     </div>
                 </div>
             ) : track ? (
-                <div className="flex items-center w-full h-full">
-                    <img src={track.image} alt={track.name} className="w-[46px] h-full object-cover" />
+                <div
+                    className="flex items-center w-full h-full bg-secondary hover:bg-accent border-1 border-accent rounded-lg duration-300">
+                    <img src={track.image} alt={track.name} className="w-[46px] h-full object-cover rounded-lg"/>
                     <div className="flex-1 min-w-0 px-2">
-                        <p className="font-leaguespartan text-xs font-semibold text-text truncate">{track.name}</p>
-                        <p className="font-leaguespartan text-xs text-text/75 truncate">{track.artist}</p>
+                        <p className="text-xs font-semibold text-text truncate">{track.name}</p>
+                        <p className="text-xs text-text/75 truncate">{track.artist}</p>
                     </div>
-                    <svg className="w-4 h-4 text-accent animate-pulse shrink-0 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                    <svg className="w-4 h-4 text-accent animate-pulse shrink-0 mr-2" fill="none" stroke="currentColor"
+                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                              d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
                     </svg>
                 </div>
             ) : (
                 <p className="font-leaguespartan text-xs text-text px-2">No recent tracks</p>
             )}
-        </motion.div>
+        </motion.li>
     );
 };
 

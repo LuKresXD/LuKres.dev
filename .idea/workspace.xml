@@ -5,37 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GridPattern.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LinkButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MediaCarousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_structure.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoadingScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScrollToTop.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SocialIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TechBadge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TechBadge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ml.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typings/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typings/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LastFmWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LastFmWidget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/index/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Hero.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,22 +157,7 @@
       <workItem from="1729101106291" duration="1459000" />
       <workItem from="1729102757013" duration="3160000" />
       <workItem from="1729106124059" duration="5647000" />
-    </task>
-    <task id="LOCAL-00027" summary="Updated Projects.tsx">
-      <option name="closed" value="true" />
-      <created>1714826130049</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1714826130049</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Updates gitignore">
-      <option name="closed" value="true" />
-      <created>1714826207432</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1714826207432</updated>
+      <workItem from="1729112007652" duration="2046000" />
     </task>
     <task id="LOCAL-00029" summary="Changed Projects.tsx arrangement">
       <option name="closed" value="true" />
@@ -578,7 +535,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729109012083</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="BIGGEST UPDATE">
+      <option name="closed" value="true" />
+      <created>1729112117417</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112117417</updated>
+    </task>
+    <task id="LOCAL-00077" summary="fix of biggest update :)">
+      <option name="closed" value="true" />
+      <created>1729112793517</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112793517</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,8 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changed payloads location" />
-    <MESSAGE value="YA DAUN" />
     <MESSAGE value="hmm" />
     <MESSAGE value="new Projects.tsx" />
     <MESSAGE value="added projects and page cas.tsx" />
@@ -633,6 +604,8 @@
     <MESSAGE value="Slight css changes" />
     <MESSAGE value="Firefox marquee bug fix" />
     <MESSAGE value="Made tech badges into link buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made tech badges into link buttons" />
+    <MESSAGE value="BIGGEST UPDATE" />
+    <MESSAGE value="fix of biggest update :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix of biggest update :)" />
   </component>
 </project>

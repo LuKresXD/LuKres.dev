@@ -80,7 +80,7 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                             delay={0.7}
                         />
                         <div className="w-64 mt-4 sm:mt-0">
-                            <LastFmWidget delay={1}/>
+                            <LastFmWidget delay={0.8}/>
                         </div>
                     </ul>
                 </motion.div>
