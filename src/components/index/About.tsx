@@ -31,27 +31,27 @@ export default function About() {
         },
         {
             title: "Nmap",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/aib44nde.png"/>
         },
         {
             title: "Wireshark",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/37nz0ybd.png"/>
         },
         {
             title: "John the Ripper",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/qv6popoo.png"/>
         },
         {
             title: "Nessus",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/8oofxt7g.png"/>
         },
         {
             title: "Metasploit",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/nm77gfrp.png"/>
         },
     ]
@@ -75,7 +75,7 @@ export default function About() {
         },
         {
             title: "OpenCV",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/ztf1gyeq.png"/>
         },
         {
@@ -88,12 +88,12 @@ export default function About() {
         },
         {
             title: "Blender",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/gonnu1rc.png"/>
         },
         {
             title: "Docker",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/vssieasx.png"/>
         },
     ]
@@ -101,42 +101,42 @@ export default function About() {
     const otherTech: Tech[] = [
         {
             title: "Git",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
         },
         {
             title: "Github",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
         },
         {
             title: "DuckyScript",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/wh9qs3vu.png"/>
         },
         {
             title: "Visual Studio Code",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
         },
         {
             title: "Flipper Zero",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/0qakmo1p.png"/>
         },
         {
             title: "Cloudflare",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/me2uv8xk95n010sdwz.png"/>
         },
         {
             title: "Swift",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/apyhav8m.png"/>
         },
         {
             title: "Terminal",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/kblm9g2n.png"/>
         },
         {
@@ -148,7 +148,7 @@ export default function About() {
         },
         {
             title: "Linux",
-            icon: <img draggable={false} loading="lazy" className="h-6"
+            icon: <img draggable={false} className="h-6"
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
         },
     ]
