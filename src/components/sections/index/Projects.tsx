@@ -23,10 +23,10 @@ export default function Projects() {
                 url="https://phishing.lukres.dev/"
                 title="Phishing Website Detector"
                 fullDescription={[
-                  "Phishing Website Detector is a website designed to analyze URLs for security risks, helping users discern safe from potentially harmful websites through real-time scanning."
+                  "Phishing Website Detector is an advanced web tool that helps users identify potentially harmful websites. With real-time URL scanning and analysis, it provides insights into whether a site is safe to use or poses a phishing risk. By checking patterns, blacklists, and various security markers, it ensures that users can navigate the internet with an extra layer of protection. Whether you're a casual user or a security professional, this tool simplifies the process of keeping your online experience safe."
                 ]}
                 cardImage="https://i.postimg.cc/gJmSGXLt/Clean-Shot-2024-05-06-at-10-46-402x.png"
-                cardDescription="Phishing Website Detector is a website designed to analyze URLs for security risks, helping users discern safe from potentially harmful websites through real-time scanning."
+                cardDescription="A web tool designed to detect and analyze phishing websites in real-time, protecting users from falling victim to online fraud."
                 media={[
                   "https://i.postimg.cc/gJmSGXLt/Clean-Shot-2024-05-06-at-10-46-402x.png"
                 ]}
@@ -38,12 +38,12 @@ export default function Projects() {
             />
             <ProjectCard
                 url="https://lukres.dev/cas"
-                title="Microfluidics droplet-based reactor"
+                title="Microfluidics reactor"
                 fullDescription={[
-                  "For my CAS project, I participated in engineering a microfluidics droplet-based reactor, developing peristaltic pump systems and creating silica chips for liposome formation, adapting solutions due to material constraints."
+                  "This CAS project centers around the development of a microfluidics droplet-based reactor, a sophisticated device designed for chemical and biological reactions at a microscopic scale. The project involved creating a precise peristaltic pump system and custom silica chips to enable the formation of liposomes, small artificial vesicles used in drug delivery and other biological research. The reactor offers immense potential in research fields, especially where precision and scalability are key. Despite facing material constraints, the project successfully overcame obstacles, producing a functional and innovative system."
                 ]}
                 cardImage="https://i.postimg.cc/Dzm423C3/photo-2024-05-14-22-38-01-2.jpg"
-                cardDescription="For my CAS project, I participated in engineering a microfluidics droplet-based reactor."
+                cardDescription="An innovative CAS project focused on engineering a microfluidics droplet-based reactor for scientific applications."
                 media={[
                   "https://i.postimg.cc/Dzm423C3/photo-2024-05-14-22-38-01-2.jpg"
                 ]}
@@ -57,10 +57,10 @@ export default function Projects() {
                 url="https://payloads.lukres.dev"
                 title="RubberDucky Payloads"
                 fullDescription={[
-                  "All scripts created by me or partially by me in RubberDucky language are stored here. I tested them on Flipper Zero. For educational purposes."
+                  "RubberDucky Payloads is a curated collection of powerful scripts designed for use with RubberDucky, an iconic USB hacking tool. These scripts, which have been tested on the versatile Flipper Zero device, enable penetration testers and cybersecurity enthusiasts to perform tasks such as keystroke injection, network reconnaissance, and more. Each payload is crafted to demonstrate security vulnerabilities in a safe and educational environment, making it ideal for those learning about ethical hacking and cybersecurity. The collection emphasizes learning and hands-on experience in a controlled setting."
                 ]}
                 cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/85nw8ufg.png"
-                cardDescription="All scripts created by me or partially by me in RubberDucky language are stored here."
+                cardDescription="A collection of custom RubberDucky scripts tested on Flipper Zero, designed for educational purposes and security research."
                 media={[
                   "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/85nw8ufg.png"
                 ]}
@@ -74,10 +74,10 @@ export default function Projects() {
                 url="https://lukres.dev/home"
                 title="LuKres.dev"
                 fullDescription={[
-                  "This page :)"
+                  "LuKres.dev is more than just a personal portfolio—it's a reflection of my journey as a developer. From showcasing my key projects to providing insights through my blog, this site serves as a hub for all things related to my development career. Whether you're looking to explore my work, learn from tutorials, or simply get in touch, LuKres.dev offers a seamless experience. Built with modern web technologies, the site demonstrates my expertise in both front-end and back-end development, while also sharing my passion for cybersecurity, game design, and AI."
                 ]}
                 cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
-                cardDescription="This page :)"
+                cardDescription="The personal website of LuKres, showcasing my projects, skills, and a blog dedicated to tech and development insights."
                 media={[
                   "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
                 ]}
@@ -91,10 +91,10 @@ export default function Projects() {
                 url="https://discord.gg/ex8h77m49X"
                 title="Letovo SMP"
                 fullDescription={[
-                  "Letovo SMP is the Minecraft server of my school. It was actively maintained for 2 years, but is currently unsupported due to lack of time."
+                  "Letovo SMP was created to bring the students of Letovo School together in a shared online space, where they could collaborate, compete, and express their creativity. With custom plugins, regular events, and a vibrant community, Letovo SMP quickly became a beloved hub for the school's gamers. Over two years, the server saw incredible builds, survival challenges, and community-driven projects, fostering teamwork and friendly competition. While the server is no longer actively supported, it left a lasting impact on the community, creating memorable experiences for all its participants."
                 ]}
                 cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
-                cardDescription="Letovo SMP is the Minecraft server of my school."
+                cardDescription="The official Minecraft SMP (Survival Multiplayer) server for Letovo School, offering a creative and competitive environment for students."
                 media={[
                   "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
                 ]}
@@ -108,10 +108,10 @@ export default function Projects() {
                 url="https://solvestream.org/"
                 title="SolveStream"
                 fullDescription={[
-                  "[IN DEVELOPMENT] Chat-roulette for academic questions. Students ask questions, professors answer via video calls. Categories and ratings system. Solving technical and academic problems in real-time."
+                  "[IN DEVELOPMENT] SolveStream is an innovative solution for students seeking real-time help with their academic problems. Acting like a chat-roulette for education, it pairs students with professors or subject experts who can answer questions and provide guidance via live video calls. With a robust category system, students can quickly find experts in their field, while a rating system ensures high-quality assistance. SolveStream aims to bridge the gap between students and academic professionals, creating an efficient way to solve technical and academic problems without the delay of traditional forums or tutoring services. Still in development, SolveStream promises to transform how students engage with learning resources."
                 ]}
                 cardImage="https://i.postimg.cc/k4BdtwXL/Clean-Shot-2024-10-16-at-22-09-08-2-2x.png"
-                cardDescription="Chat-roulette for academic questions in real-time."
+                cardDescription="A revolutionary academic platform connecting students and professors via real-time video calls to solve educational challenges."
                 media={[
                   "https://i.postimg.cc/k4BdtwXL/Clean-Shot-2024-10-16-at-22-09-08-2-2x.png"
                 ]}
