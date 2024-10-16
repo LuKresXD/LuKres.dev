@@ -34,9 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+start.sh
 
-
-!/src/pages/ml.tsx
 !/project_structure.txt
 !/claude_upload/
 

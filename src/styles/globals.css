@@ -4,44 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'League Spartan';
-    font-display: swap;
-}
-
 body {
     background-color: #0a0a0a;
+    font-family: 'League Spartan', sans-serif;
+    color: #fff;
 }
 
-html {
-    scroll-behavior: smooth;
+.carousel {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.animate-fade-in {
-    animation: fadeIn 1s ease-in-out;
-}
-
-a, button {
-    transition: all 0.3s ease;
-}
-
-a:hover, button:hover {
-    opacity: 0.8;
-}
-.page-load {
-    animation: fadeIn 0.3s ease-in-out;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.carousel::-webkit-scrollbar {
+    display: none;
 }
