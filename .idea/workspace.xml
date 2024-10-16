@@ -157,15 +157,7 @@
       <workItem from="1725870650116" duration="32000" />
       <workItem from="1726142652865" duration="3000" />
       <workItem from="1729101106291" duration="1459000" />
-      <workItem from="1729102757013" duration="2822000" />
-    </task>
-    <task id="LOCAL-00020" summary="Made logos more visible">
-      <option name="closed" value="true" />
-      <created>1714313173375</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1714313173375</updated>
+      <workItem from="1729102757013" duration="3160000" />
     </task>
     <task id="LOCAL-00021" summary="Made logos more visible">
       <option name="closed" value="true" />
@@ -551,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729102821158</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="LastFM widget is now beautiful">
+      <option name="closed" value="true" />
+      <created>1729105620748</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1729105620748</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed pictures again" />
     <MESSAGE value="Updated Projects.tsx" />
     <MESSAGE value="Updates gitignore" />
     <MESSAGE value="Changed Projects.tsx arrangement" />
@@ -606,6 +605,7 @@
     <MESSAGE value="Cleanup" />
     <MESSAGE value="LastFM integrated" />
     <MESSAGE value="Testing Webhook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing Webhook" />
+    <MESSAGE value="LastFM widget is now beautiful" />
+    <option name="LAST_COMMIT_MESSAGE" value="LastFM widget is now beautiful" />
   </component>
 </project>
