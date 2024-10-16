@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Divider from "./Divider";
 import TechBadge from "./TechBadge";
 import Marquee from "react-fast-marquee";
-import { Tech } from "../../../../Downloads/aiden.gg-main/typings";
+import { Tech } from "../../typings";
 
 export default function AboutCard({ title, description, tech, direction, span, gradient, delay }: { title: string, description: string, tech?: Tech[], direction: 'top' | 'bottom' | 'left' | 'right', span: 1 | 2, gradient: string, delay: number}) {
     return (

@@ -33,13 +33,13 @@ export default function CASProject() {
                             This project represents the pinnacle of my academic endeavors. As the lead programmer, I not only developed precise control algorithms for the peristaltic pump system but also implemented computer vision to analyze droplets.
                         </p>
                         <p className="text-white text-center text-lg">
-                            My primary responsibility was crafting algorithms that allowed us to regulate speeds via code rather than manual adjustments, significantly enhancing the system's precision.
+                            My primary responsibility was crafting algorithms that allowed us to regulate speeds via code rather than manual adjustments, significantly enhancing the systems precision.
                         </p>
                         <p className="text-white text-center text-lg">
                             I introduced and integrated computer vision technology to monitor and analyze droplet formation within the microfluidic chips. This involved designing image processing algorithms capable of detecting and characterizing droplets in real-time, providing crucial data for optimizing reaction conditions.
                         </p>
                         <p className="text-white text-center text-lg">
-                            One major challenge was the unavailability of traditional chip materials. We adapted by using diagonally placed needles instead of vertical inlets and outlets. Through close collaboration with the engineering team, we ensured the system's functionality and efficiency despite these constraints.
+                            One major challenge was the unavailability of traditional chip materials. We adapted by using diagonally placed needles instead of vertical inlets and outlets. Through close collaboration with the engineering team, we ensured the systems functionality and efficiency despite these constraints.
                         </p>
                         <p className="text-white text-center text-lg">
                             My work significantly enhanced the precision and functionality of our microfluidics system, contributing to the overall success of the project.
