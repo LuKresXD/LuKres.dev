@@ -22,7 +22,7 @@ export default function About() {
     const frontendTech: Tech[] = [
         {
             title: "Kali Linux",
-            icon: <svg className="h-6 w-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
+            icon: <svg className="h-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
                        xmlns="http://www.w3.org/2000/svg">
                 <title>kalilinux</title>
                 <path
@@ -31,22 +31,22 @@ export default function About() {
         },
         {
             title: "Nmap",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/aib44nde.png"/>
         },
         {
             title: "Wireshark",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/37nz0ybd.png"/>
         },
         {
             title: "John the Ripper",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/qv6popoo.png"/>
         },
         {
             title: "Nessus",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/8oofxt7g.png"/>
         },
         {
@@ -59,7 +59,7 @@ export default function About() {
     const backendTech: Tech[] = [
         {
             title: "Unreal Engine",
-            icon: <svg className="h-6 w-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
+            icon: <svg className="h-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
                        xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm0 1.846c5.595.007 10.128 4.545 10.128 10.141 0 5.601-4.54 10.141-10.141 10.141s-10.141-4.54-10.141-10.141c0-2.8 1.135-5.335 2.97-7.17 1.837-1.835 4.374-2.97 7.176-2.97h.007zm0 2.77c-4.392.774-8.308 4.824-8.308 9.23 2.149-3.794 3.584-4.067 3.981-4.067s.606.206.606.663v5.654c0 .703-1.366.588-1.818.519 1.67 2.485 5.539 2.77 5.539 2.77l1.846-1.846 1.846.923c2.914-1.334 4.615-4.19 4.615-4.615-.701.868-1.646 1.515-2.731 1.836l-.039.01c-.245 0-.923-.126-.923-.462v-6.693c0-.581 1.342-2.354 1.846-3-3.332.873-4.298 2.394-4.298 2.394s-.253-.548-1.24-.548c.501.473.838 1.114.922 1.832l.001.014v5.654c-.525.373-1.144.653-1.813.801l-.034.006c-.64 0-.952-.26-.952-.75s.029-6.634.029-6.634-.923.339-.923-1.558c0-.949 1.846-2.135 1.846-2.135z"/>
@@ -67,7 +67,7 @@ export default function About() {
         },
         {
             title: "Unity",
-            icon: <svg className="h-6 w-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
+            icon: <svg className="h-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
                        xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="m15.266 12.001 4.2-7.249 2.03 7.253-2.03 7.25-4.2-7.25zm-2.047 1.177 4.201 7.254-7.316-1.876-5.285-5.378zm4.2-9.608-4.2 7.253h-8.4l5.285-5.378 7.314-1.875zm6 5.963-2.566-9.533-9.564 2.555-1.416 2.489-2.873-.021-7 6.978 7 6.977 2.871-.022 1.418 2.489 9.564 2.554 2.56-9.531-1.453-2.468z"/>
@@ -75,12 +75,12 @@ export default function About() {
         },
         {
             title: "OpenCV",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/ztf1gyeq.png"/>
         },
         {
             title: "SQL",
-            icon: <svg className="h-6 w-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
+            icon: <svg className="h-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
                        xmlns="http://www.w3.org/2000/svg">
                 <path fill="#FFFFFF"
                       d="M5.082 5.593c-0.564 0.564-0.423 1.213 0.564 2.679 0.508 0.761 1.1 1.946 1.326 2.623 0.226 0.705 0.677 1.664 0.987 2.143 0.564 0.79 0.564 0.959 0.197 2.397-0.226 0.902-0.31 2.031-0.197 2.736 0.169 1.185 1.128 2.905 1.72 3.102 0.508 0.169 1.241-0.733 1.269-1.551 0-0.705 0.028-0.733 0.338-0.226 0.536 0.874 2.228 2.735 2.369 2.594 0.056-0.056-0.31-0.79-0.846-1.607-0.508-0.846-1.1-1.946-1.325-2.454-0.31-0.846-0.423-0.902-0.79-0.508-0.226 0.226-0.508 0.874-0.592 1.466-0.226 1.354-0.733 1.523-1.128 0.367s-0.395-3.131 0-4.484c0.282-0.931 0.254-1.184-0.226-1.89-0.31-0.423-0.79-1.438-1.044-2.256-0.254-0.79-0.846-1.974-1.325-2.595-1.1-1.551-1.1-2.115 0.056-1.89 0.479 0.085 1.213 0.423 1.664 0.733 0.423 0.31 1.156 0.564 1.607 0.564 1.354 0 3.723 1.326 5.443 3.046 1.326 1.325 2.002 2.397 3.441 5.302 1.692 3.44 1.833 3.638 2.877 3.976 1.241 0.423 3.835 2.002 3.835 2.341 0 0.113-0.649 0.282-1.438 0.338-2.115 0.226-2.313 0.62-0.931 1.861 0.649 0.564 1.862 1.438 2.736 1.918l1.579 0.902-0.733-0.931c-0.423-0.508-1.297-1.297-1.974-1.72s-1.213-0.874-1.213-0.987c0-0.113 0.479-0.31 1.072-0.395 1.579-0.282 2.030-0.423 2.030-0.705 0-0.423-2.848-2.566-4.202-3.159-1.156-0.536-1.297-0.762-2.792-3.835-1.326-2.82-1.861-3.61-3.553-5.302-2.171-2.171-3.666-3.102-5.584-3.384-0.649-0.113-1.551-0.451-1.946-0.733-0.931-0.705-2.82-0.959-3.272-0.479z"></path>
@@ -101,54 +101,54 @@ export default function About() {
     const otherTech: Tech[] = [
         {
             title: "Git",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
         },
         {
             title: "Github",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
         },
         {
             title: "DuckyScript",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/wh9qs3vu.png"/>
         },
         {
             title: "Visual Studio Code",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
         },
         {
             title: "Flipper Zero",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/0qakmo1p.png"/>
         },
         {
             title: "Cloudflare",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/me2uv8xk95n010sdwz.png"/>
         },
         {
             title: "Swift",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/apyhav8m.png"/>
         },
         {
             title: "Terminal",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/kblm9g2n.png"/>
         },
         {
             title: "Vercel",
-            icon: <svg className="h-6 w-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
+            icon: <svg className="h-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24"
                        xmlns="http://www.w3.org/2000/svg">
                 <path d="M24 22.525H0l12-21.05 12 21.05z"/>
             </svg>
         },
         {
             title: "Linux",
-            icon: <img draggable={false} loading="lazy" className="h-6 w-6"
+            icon: <img draggable={false} loading="lazy" className="h-6"
                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
         },
     ]

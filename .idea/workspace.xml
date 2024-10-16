@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LastFmWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LastFmWidget.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,15 +149,7 @@
       <workItem from="1726142652865" duration="3000" />
       <workItem from="1729101106291" duration="1459000" />
       <workItem from="1729102757013" duration="3160000" />
-      <workItem from="1729106124059" duration="1260000" />
-    </task>
-    <task id="LOCAL-00023" summary="Test blender 2">
-      <option name="closed" value="true" />
-      <created>1714383092320</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1714383092320</updated>
+      <workItem from="1729106124059" duration="1768000" />
     </task>
     <task id="LOCAL-00024" summary="Fixed pictures">
       <option name="closed" value="true" />
@@ -546,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729106593035</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Small fix">
+      <option name="closed" value="true" />
+      <created>1729107403809</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1729107403809</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changed Projects.tsx arrangement" />
     <MESSAGE value="New image for phishing project" />
     <MESSAGE value="Inital commit" />
     <MESSAGE value="fix" />
@@ -601,6 +597,7 @@
     <MESSAGE value="Testing Webhook" />
     <MESSAGE value="Edited projects" />
     <MESSAGE value="fixes :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes :)" />
+    <MESSAGE value="Small fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small fix" />
   </component>
 </project>

@@ -25,7 +25,6 @@ export default function Home() {
                 <meta property='theme-color' content='#17171a'/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" href="/favicon.ico"/>
-                <link href="https://unpkg.com/pattern.css@1.0.0/dist/pattern.min.css" rel="stylesheet"/>
             </Head>
             <Navbar/>
             <main className="relative pattern-grid-lg min-h-screen text-primary overflow-x-hidden px-6">
