@@ -67,7 +67,7 @@ export default function Projects() {
             gradient="bg-gradient-to-tr"
           />
           <ProjectCard
-            url="solvestream.org"
+            url="https://solvestream.org/"
             title="SolveStream"
             description="[IN DEVELOPMENT] Chat-roulette for academic questions. Students ask questions, professors answer via video calls. Categories and ratings system. Solving technical and academic problems in real-time."
             image="https://i.postimg.cc/k4BdtwXL/Clean-Shot-2024-10-16-at-22-09-08-2-2x.png"
