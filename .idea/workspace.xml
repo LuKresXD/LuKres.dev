@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/index/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LastFmWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LastFmWidget.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,15 +152,7 @@
       <workItem from="1726142652865" duration="3000" />
       <workItem from="1729101106291" duration="1459000" />
       <workItem from="1729102757013" duration="3160000" />
-      <workItem from="1729106124059" duration="387000" />
-    </task>
-    <task id="LOCAL-00022" summary="Test blender">
-      <option name="closed" value="true" />
-      <created>1714382975863</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1714382975863</updated>
+      <workItem from="1729106124059" duration="1260000" />
     </task>
     <task id="LOCAL-00023" summary="Test blender 2">
       <option name="closed" value="true" />
@@ -545,7 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729106199756</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="fixes :)">
+      <option name="closed" value="true" />
+      <created>1729106593035</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1729106593035</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updates gitignore" />
     <MESSAGE value="Changed Projects.tsx arrangement" />
     <MESSAGE value="New image for phishing project" />
     <MESSAGE value="Inital commit" />
@@ -600,6 +600,7 @@
     <MESSAGE value="LastFM widget is now beautiful" />
     <MESSAGE value="Testing Webhook" />
     <MESSAGE value="Edited projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited projects" />
+    <MESSAGE value="fixes :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes :)" />
   </component>
 </project>

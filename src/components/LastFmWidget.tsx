@@ -70,7 +70,7 @@ const LastFmWidget: React.FC<LastFmWidgetProps> = ({ delay }) => {
                 </div>
             ) : track ? (
                 <div className="flex items-center w-full h-full">
-                    <img src={track.image} alt={track.name} className="w-[36px] h-full object-cover" />
+                    <img src={track.image} alt={track.name} className="w-[46px] h-full object-cover" />
                     <div className="flex-1 min-w-0 px-2">
                         <p className="font-leaguespartan text-xs font-semibold text-text truncate">{track.name}</p>
                         <p className="font-leaguespartan text-xs text-text/75 truncate">{track.artist}</p>
