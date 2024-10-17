@@ -53,10 +53,6 @@ export default function ProjectCard({ url, title, fullDescription, cardDescripti
                 <p className="sm:text-lg text-base">{myRole}</p>
               </div>
               <div className="flex flex-col mt-2">
-                <h2 className="sm:text-2xl text-xl font-semibold">My Timeline</h2>
-                <p className="sm:text-lg text-base">{myTimeline}</p>
-              </div>
-              <div className="flex flex-col mt-2">
                 <h2 className="sm:text-2xl text-xl font-semibold">Project Timeline</h2>
                 <p className="sm:text-lg text-base">{projectTimeline}</p>
               </div>

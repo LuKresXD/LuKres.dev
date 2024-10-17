@@ -25,14 +25,17 @@ export default function Projects() {
                 fullDescription={[
                   "Phishing Website Detector is an advanced web tool that helps users identify potentially harmful websites. With real-time URL scanning and analysis, it provides insights into whether a site is safe to use or poses a phishing risk. By checking patterns, blacklists, and various security markers, it ensures that users can navigate the internet with an extra layer of protection. Whether you're a casual user or a security professional, this tool simplifies the process of keeping your online experience safe."
                 ]}
-                cardImage="https://i.postimg.cc/gJmSGXLt/Clean-Shot-2024-05-06-at-10-46-402x.png"
+                cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/6ae5hg1z.png"
                 cardDescription="A web tool designed to detect and analyze phishing websites in real-time, protecting users from falling victim to online fraud."
                 media={[
-                  "https://i.postimg.cc/gJmSGXLt/Clean-Shot-2024-05-06-at-10-46-402x.png"
+                    "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/mybkq83y.mp4",
+                    "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/6ae5hg1z.png",
+                    "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/tge4kxtr.png",
+                    "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/dj9uuxer.png"
                 ]}
                 myRole="Founder, Developer"
-                myTimeline="May 2024 - Present"
-                projectTimeline="May 2024 - Present"
+                myTimeline="May 2024 - August 2024"
+                projectTimeline="May 2024 - August 2024"
                 delay={0.1}
                 gradient="bg-gradient-to-tl"
             />
@@ -47,9 +50,9 @@ export default function Projects() {
                 media={[
                   "https://i.postimg.cc/Dzm423C3/photo-2024-05-14-22-38-01-2.jpg"
                 ]}
-                myRole="Engineer"
-                myTimeline="April 2024 - May 2024"
-                projectTimeline="April 2024 - May 2024"
+                myRole="Co-Founder, Engineer"
+                myTimeline="November 2023 - July 2024"
+                projectTimeline="November 2023 - July 2024"
                 delay={0.2}
                 gradient="bg-gradient-to-tr"
             />
@@ -65,11 +68,34 @@ export default function Projects() {
                   "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/85nw8ufg.png"
                 ]}
                 myRole="Founder, Developer"
-                myTimeline="May 2024 - Present"
-                projectTimeline="May 2024 - Present"
+                myTimeline="April 2024 - Present"
+                projectTimeline="April 2024 - Present"
                 delay={0.1}
                 gradient="bg-gradient-to-br"
             />
+              <ProjectCard
+                  url="https://discord.gg/ex8h77m49X"
+                  title="Letovo SMP"
+                  fullDescription={[
+                      "Letovo SMP was created to bring the students of Letovo School together in a shared online space, where they could collaborate, compete, and express their creativity. With custom plugins, regular events, and a vibrant community, Letovo SMP quickly became a beloved hub for the school's gamers. Over two years, the server saw incredible builds, survival challenges, and community-driven projects, fostering teamwork and friendly competition. While the server is no longer actively supported, it left a lasting impact on the community, creating memorable experiences for all its participants."
+                  ]}
+                  cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
+                  cardDescription="The official Minecraft SMP (Survival Multiplayer) server for Letovo School, offering a creative and competitive environment for students."
+                  media={[
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png",
+                      "https://i.postimg.cc/66MmFWP9/aaimage-1.png",
+                      "https://i.postimg.cc/PJVVDyDL/ssaaimage-1.png",
+                      "https://i.postimg.cc/ds2MNKv1/2023-02-19-09-48-05-1.png",
+                      "https://i.postimg.cc/ZRcMb4Kx/2023-03-12-17-56-19-1.png",
+                      "https://i.postimg.cc/LXRWFnRs/2023-03-12-17-43-12-1.png",
+                      "https://i.postimg.cc/wBDrrDCP/2023-03-12-17-52-08-1.png"
+                  ]}
+                  myRole="Co-Founder, Developer, Suport"
+                  myTimeline="November 2022 - August 2023"
+                  projectTimeline="November 2022 - August 2023"
+                  delay={0.2}
+                  gradient="bg-gradient-to-bl"
+              />
             <ProjectCard
                 url="https://lukres.dev/home"
                 title="LuKres.dev"
@@ -79,28 +105,11 @@ export default function Projects() {
                 cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
                 cardDescription="The personal website of LuKres, showcasing my projects, skills, and a blog dedicated to tech and development insights."
                 media={[
-                  "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
+                  "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/5e9892ao.mp4"
                 ]}
                 myRole="Founder, Developer"
-                myTimeline="May 2024 - Present"
-                projectTimeline="May 2024 - Present"
-                delay={0.2}
-                gradient="bg-gradient-to-bl"
-            />
-            <ProjectCard
-                url="https://discord.gg/ex8h77m49X"
-                title="Letovo SMP"
-                fullDescription={[
-                  "Letovo SMP was created to bring the students of Letovo School together in a shared online space, where they could collaborate, compete, and express their creativity. With custom plugins, regular events, and a vibrant community, Letovo SMP quickly became a beloved hub for the school's gamers. Over two years, the server saw incredible builds, survival challenges, and community-driven projects, fostering teamwork and friendly competition. While the server is no longer actively supported, it left a lasting impact on the community, creating memorable experiences for all its participants."
-                ]}
-                cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
-                cardDescription="The official Minecraft SMP (Survival Multiplayer) server for Letovo School, offering a creative and competitive environment for students."
-                media={[
-                  "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png"
-                ]}
-                myRole="Founder, Developer"
-                myTimeline="May 2024 - August 2024"
-                projectTimeline="May 2024 - August 2024"
+                myTimeline="April 2024 - Present"
+                projectTimeline="April 2024 - Present"
                 delay={0.1}
                 gradient="bg-gradient-to-tr"
             />
@@ -116,8 +125,8 @@ export default function Projects() {
                   "https://i.postimg.cc/k4BdtwXL/Clean-Shot-2024-10-16-at-22-09-08-2-2x.png"
                 ]}
                 myRole="Founder, Developer"
-                myTimeline="October 2024 - Present"
-                projectTimeline="October 2024 - Present"
+                myTimeline="June 2024 - Present"
+                projectTimeline="June 2024 - Present"
                 delay={0.2}
                 gradient="bg-gradient-to-tl"
             />

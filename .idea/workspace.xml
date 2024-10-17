@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="">
+    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="A">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LastFmWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LastFmWidget.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/index/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/index/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Projects.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,23 +157,8 @@
       <workItem from="1729101106291" duration="1459000" />
       <workItem from="1729102757013" duration="3160000" />
       <workItem from="1729106124059" duration="5647000" />
-      <workItem from="1729112007652" duration="2046000" />
-    </task>
-    <task id="LOCAL-00029" summary="Changed Projects.tsx arrangement">
-      <option name="closed" value="true" />
-      <created>1714981526777</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1714981526777</updated>
-    </task>
-    <task id="LOCAL-00030" summary="New image for phishing project">
-      <option name="closed" value="true" />
-      <created>1714981811814</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1714981811814</updated>
+      <workItem from="1729112007652" duration="7001000" />
+      <workItem from="1729165018229" duration="1772000" />
     </task>
     <task id="LOCAL-00031" summary="Inital commit">
       <option name="closed" value="true" />
@@ -551,7 +536,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729112793517</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="LastFmWidget.tsx fix">
+      <option name="closed" value="true" />
+      <created>1729114326027</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1729114326027</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Created descriptions for Projects.tsx">
+      <option name="closed" value="true" />
+      <created>1729114765097</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1729114765097</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,8 +582,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="hmm" />
-    <MESSAGE value="new Projects.tsx" />
     <MESSAGE value="added projects and page cas.tsx" />
     <MESSAGE value="rearranged" />
     <MESSAGE value="rearranged again" />
@@ -606,6 +605,8 @@
     <MESSAGE value="Made tech badges into link buttons" />
     <MESSAGE value="BIGGEST UPDATE" />
     <MESSAGE value="fix of biggest update :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix of biggest update :)" />
+    <MESSAGE value="LastFmWidget.tsx fix" />
+    <MESSAGE value="Created descriptions for Projects.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created descriptions for Projects.tsx" />
   </component>
 </project>
