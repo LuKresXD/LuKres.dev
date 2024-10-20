@@ -28,7 +28,7 @@ export default function Projects() {
                 cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/6ae5hg1z.png"
                 cardDescription="A web tool designed to detect and analyze phishing websites in real-time, protecting users from falling victim to online fraud."
                 media={[
-                    "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/mybkq83y.mp4",
+                    "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/vamnhb8m.mp4",
                     "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/6ae5hg1z.png",
                     "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/tge4kxtr.png",
                     "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/dj9uuxer.png"
@@ -45,10 +45,10 @@ export default function Projects() {
                 fullDescription={[
                   "This CAS project centers around the development of a microfluidics droplet-based reactor, a sophisticated device designed for chemical and biological reactions at a microscopic scale. The project involved creating a precise peristaltic pump system and custom silica chips to enable the formation of liposomes, small artificial vesicles used in drug delivery and other biological research. The reactor offers immense potential in research fields, especially where precision and scalability are key. Despite facing material constraints, the project successfully overcame obstacles, producing a functional and innovative system."
                 ]}
-                cardImage="https://i.postimg.cc/Dzm423C3/photo-2024-05-14-22-38-01-2.jpg"
+                cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/h174xqqs.jpg"
                 cardDescription="An innovative CAS project focused on engineering a microfluidics droplet-based reactor for scientific applications."
                 media={[
-                  "https://i.postimg.cc/Dzm423C3/photo-2024-05-14-22-38-01-2.jpg"
+                  "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/h174xqqs.jpg"
                 ]}
                 myRole="Co-Founder, Engineer"
                 myTimeline="November 2023 - July 2024"
@@ -83,12 +83,12 @@ export default function Projects() {
                   cardDescription="The official Minecraft SMP (Survival Multiplayer) server for Letovo School, offering a creative and competitive environment for students."
                   media={[
                       "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/hxqurbpc.png",
-                      "https://i.postimg.cc/66MmFWP9/aaimage-1.png",
-                      "https://i.postimg.cc/PJVVDyDL/ssaaimage-1.png",
-                      "https://i.postimg.cc/ds2MNKv1/2023-02-19-09-48-05-1.png",
-                      "https://i.postimg.cc/ZRcMb4Kx/2023-03-12-17-56-19-1.png",
-                      "https://i.postimg.cc/LXRWFnRs/2023-03-12-17-43-12-1.png",
-                      "https://i.postimg.cc/wBDrrDCP/2023-03-12-17-52-08-1.png"
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/iqmj4yt9.png",
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/senhgz35.png",
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/szqbp2a5.png",
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/oqjxmafb.png",
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/b80fm686.png",
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/0uiqieur.png"
                   ]}
                   myRole="Co-Founder, Developer, Suport"
                   myTimeline="November 2022 - August 2023"
@@ -102,10 +102,11 @@ export default function Projects() {
                 fullDescription={[
                   "LuKres.dev is more than just a personal portfolio—it's a reflection of my journey as a developer. From showcasing my key projects to providing insights through my blog, this site serves as a hub for all things related to my development career. Whether you're looking to explore my work, learn from tutorials, or simply get in touch, LuKres.dev offers a seamless experience. Built with modern web technologies, the site demonstrates my expertise in both front-end and back-end development, while also sharing my passion for cybersecurity, game design, and AI."
                 ]}
-                cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/t22wyrkw.png"
+                cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/8fruzhc1.png"
                 cardDescription="The personal website of LuKres, showcasing my projects, skills, and a blog dedicated to tech and development insights."
                 media={[
-                  "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/5e9892ao.mp4"
+                  "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/5e9892ao.mp4",
+                    "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/8fruzhc1.png"
                 ]}
                 myRole="Founder, Developer"
                 myTimeline="April 2024 - Present"
@@ -119,10 +120,10 @@ export default function Projects() {
                 fullDescription={[
                   "[IN DEVELOPMENT] SolveStream is an innovative solution for students seeking real-time help with their academic problems. Acting like a chat-roulette for education, it pairs students with professors or subject experts who can answer questions and provide guidance via live video calls. With a robust category system, students can quickly find experts in their field, while a rating system ensures high-quality assistance. SolveStream aims to bridge the gap between students and academic professionals, creating an efficient way to solve technical and academic problems without the delay of traditional forums or tutoring services. Still in development, SolveStream promises to transform how students engage with learning resources."
                 ]}
-                cardImage="https://i.postimg.cc/k4BdtwXL/Clean-Shot-2024-10-16-at-22-09-08-2-2x.png"
+                cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/pafn7tph.png"
                 cardDescription="A revolutionary academic platform connecting students and professors via real-time video calls to solve educational challenges."
                 media={[
-                  "https://i.postimg.cc/k4BdtwXL/Clean-Shot-2024-10-16-at-22-09-08-2-2x.png"
+                  "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/pafn7tph.png"
                 ]}
                 myRole="Founder, Developer"
                 myTimeline="June 2024 - Present"

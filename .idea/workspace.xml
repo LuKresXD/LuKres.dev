@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="A">
+    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/index/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Projects.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2faPL2ysF8keqoZMQb3KREP0yyT" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -158,23 +157,7 @@
       <workItem from="1729102757013" duration="3160000" />
       <workItem from="1729106124059" duration="5647000" />
       <workItem from="1729112007652" duration="7001000" />
-      <workItem from="1729165018229" duration="1772000" />
-    </task>
-    <task id="LOCAL-00031" summary="Inital commit">
-      <option name="closed" value="true" />
-      <created>1714985099665</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1714985099665</updated>
-    </task>
-    <task id="LOCAL-00032" summary="changed payloads location">
-      <option name="closed" value="true" />
-      <created>1714985542273</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1714985542273</updated>
+      <workItem from="1729165018229" duration="8387000" />
     </task>
     <task id="LOCAL-00033" summary="YA DAUN">
       <option name="closed" value="true" />
@@ -552,7 +535,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729114765097</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Projects edited">
+      <option name="closed" value="true" />
+      <created>1729169167218</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1729169167219</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Techs updated">
+      <option name="closed" value="true" />
+      <created>1729194751158</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1729194751158</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,11 +581,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added projects and page cas.tsx" />
-    <MESSAGE value="rearranged" />
     <MESSAGE value="rearranged again" />
     <MESSAGE value="small update" />
-    <MESSAGE value="Projects edited" />
     <MESSAGE value="Small additions to decrease loading time" />
     <MESSAGE value="Cas.tsx beautiful now" />
     <MESSAGE value="Cas" />
@@ -607,6 +603,9 @@
     <MESSAGE value="fix of biggest update :)" />
     <MESSAGE value="LastFmWidget.tsx fix" />
     <MESSAGE value="Created descriptions for Projects.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created descriptions for Projects.tsx" />
+    <MESSAGE value="A" />
+    <MESSAGE value="Projects edited" />
+    <MESSAGE value="Techs updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Techs updated" />
   </component>
 </project>
