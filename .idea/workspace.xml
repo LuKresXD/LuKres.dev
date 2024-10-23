@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/index/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Projects.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,15 +154,8 @@
       <workItem from="1729102757013" duration="3160000" />
       <workItem from="1729106124059" duration="5647000" />
       <workItem from="1729112007652" duration="7001000" />
-      <workItem from="1729165018229" duration="8387000" />
-    </task>
-    <task id="LOCAL-00033" summary="YA DAUN">
-      <option name="closed" value="true" />
-      <created>1715016864716</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1715016864716</updated>
+      <workItem from="1729165018229" duration="10321000" />
+      <workItem from="1729668246704" duration="2000" />
     </task>
     <task id="LOCAL-00034" summary="hmm">
       <option name="closed" value="true" />
@@ -551,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729194751158</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Images fixed">
+      <option name="closed" value="true" />
+      <created>1729416833218</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1729416833218</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="rearranged again" />
     <MESSAGE value="small update" />
     <MESSAGE value="Small additions to decrease loading time" />
     <MESSAGE value="Cas.tsx beautiful now" />
@@ -606,6 +603,7 @@
     <MESSAGE value="A" />
     <MESSAGE value="Projects edited" />
     <MESSAGE value="Techs updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Techs updated" />
+    <MESSAGE value="Images fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images fixed" />
   </component>
 </project>

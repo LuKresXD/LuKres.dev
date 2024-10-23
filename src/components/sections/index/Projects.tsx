@@ -19,6 +19,25 @@ export default function Projects() {
             Projects
           </motion.h1>
           <ul className={`${showAll ? '' : 'max-h-[100rem]'} grid md:grid-cols-2 pt-6 pb-1 grid-cols-1 gap-4 overflow-hidden`}>
+              <ProjectCard
+                  url="https://solvestream.org/"
+                  title="SolveStream"
+                  fullDescription={[
+                      "[IN DEVELOPMENT] SolveStream is an innovative solution for students seeking real-time help with their academic problems. Acting like a chat-roulette for education, it pairs students with professors or subject experts who can answer questions and provide guidance via live video calls. With a robust category system, students can quickly find experts in their field, while a rating system ensures high-quality assistance. SolveStream aims to bridge the gap between students and academic professionals, creating an efficient way to solve technical and academic problems without the delay of traditional forums or tutoring services. Still in development, SolveStream promises to transform how students engage with learning resources."
+                  ]}
+                  cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/9iize4cn.png"
+                  cardDescription="A revolutionary academic platform connecting students and professors via real-time video calls to solve educational challenges."
+                  media={[
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/9iize4cn.png",
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/w9eeyxvk.png",
+                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/45aumpmk.png"
+                  ]}
+                  myRole="Founder, Developer"
+                  myTimeline="June 2024 - Present"
+                  projectTimeline="June 2024 - Present"
+                  delay={0.1}
+                  gradient="bg-gradient-to-tl"
+              />
             <ProjectCard
                 url="https://phishing.lukres.dev/"
                 title="Phishing Website Detector"
@@ -36,7 +55,7 @@ export default function Projects() {
                 myRole="Founder, Developer"
                 myTimeline="May 2024 - August 2024"
                 projectTimeline="May 2024 - August 2024"
-                delay={0.1}
+                delay={0.2}
                 gradient="bg-gradient-to-tl"
             />
             <ProjectCard
@@ -53,7 +72,7 @@ export default function Projects() {
                 myRole="Co-Founder, Engineer"
                 myTimeline="November 2023 - July 2024"
                 projectTimeline="November 2023 - July 2024"
-                delay={0.2}
+                delay={0.1}
                 gradient="bg-gradient-to-tr"
             />
             <ProjectCard
@@ -70,7 +89,7 @@ export default function Projects() {
                 myRole="Founder, Developer"
                 myTimeline="April 2024 - Present"
                 projectTimeline="April 2024 - Present"
-                delay={0.1}
+                delay={0.2}
                 gradient="bg-gradient-to-br"
             />
               <ProjectCard
@@ -93,7 +112,7 @@ export default function Projects() {
                   myRole="Co-Founder, Developer, Suport"
                   myTimeline="November 2022 - August 2023"
                   projectTimeline="November 2022 - August 2023"
-                  delay={0.2}
+                  delay={0.1}
                   gradient="bg-gradient-to-bl"
               />
             <ProjectCard
@@ -111,25 +130,8 @@ export default function Projects() {
                 myRole="Founder, Developer"
                 myTimeline="April 2024 - Present"
                 projectTimeline="April 2024 - Present"
-                delay={0.1}
-                gradient="bg-gradient-to-tr"
-            />
-            <ProjectCard
-                url="https://solvestream.org/"
-                title="SolveStream"
-                fullDescription={[
-                  "[IN DEVELOPMENT] SolveStream is an innovative solution for students seeking real-time help with their academic problems. Acting like a chat-roulette for education, it pairs students with professors or subject experts who can answer questions and provide guidance via live video calls. With a robust category system, students can quickly find experts in their field, while a rating system ensures high-quality assistance. SolveStream aims to bridge the gap between students and academic professionals, creating an efficient way to solve technical and academic problems without the delay of traditional forums or tutoring services. Still in development, SolveStream promises to transform how students engage with learning resources."
-                ]}
-                cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/pafn7tph.png"
-                cardDescription="A revolutionary academic platform connecting students and professors via real-time video calls to solve educational challenges."
-                media={[
-                  "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/pafn7tph.png"
-                ]}
-                myRole="Founder, Developer"
-                myTimeline="June 2024 - Present"
-                projectTimeline="June 2024 - Present"
                 delay={0.2}
-                gradient="bg-gradient-to-tl"
+                gradient="bg-gradient-to-tr"
             />
           </ul>
         </section>
