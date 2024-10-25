@@ -28,11 +28,13 @@ export default function MediaCarousel({ media }: { media: string[] }) {
     }
 
     return (
-        <div className="scrollbar flex w-full snap-x snap-mandatory overflow-x-auto rounded-lg carousel">
-            {media.length > 1 && <CarouselControl isLeft handleNext={nextMedia} handlePrevious={previousMedia} />}
+        <div className="scrollbar flex w-full snap-x snap-mandatory overflow-x-auto rounded-lg media-carousel">
+            {media.length > 1 && <CarouselControl isLeft handleNext={nextMedia} handlePrevious={previousMedia}/>}
             {media.map((src, i) => (
                 <div
-                    ref={(el) => { if (el) refs.current[i] = el }}
+                    ref={(el) => {
+                        if (el) refs.current[i] = el
+                    }}
                     key={i}
                     className="flex w-full flex-shrink-0 snap-center justify-center rounded-lg"
                 >
@@ -52,12 +54,14 @@ export default function MediaCarousel({ media }: { media: string[] }) {
                     }
                 </div>
             ))}
-            {media.length > 1 && <CarouselControl handleNext={nextMedia} handlePrevious={previousMedia} />}
+            {media.length > 1 && <CarouselControl handleNext={nextMedia} handlePrevious={previousMedia}/>}
         </div>
     )
 }
 
-function CarouselControl({ isLeft = false, handleNext, handlePrevious }: { isLeft?: boolean, handleNext: () => void, handlePrevious: () => void }) {
+function CarouselControl({isLeft = false, handleNext, handlePrevious}: {
+    isLeft?: boolean,
+    handleNext: () => void, handlePrevious: () => void }) {
     return (
         <button
             type="button"
