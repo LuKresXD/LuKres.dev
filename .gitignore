@@ -37,4 +37,4 @@ next-env.d.ts
 start.sh
 .env
 
-/.idea/
+/.idea

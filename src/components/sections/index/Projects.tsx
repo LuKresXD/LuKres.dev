@@ -36,7 +36,7 @@ export default function Projects() {
                   myTimeline="June 2024 - Present"
                   projectTimeline="June 2024 - Present"
                   delay={0.1}
-                  gradient="bg-gradient-to-tl"
+                  gradient="bg-gradient-to-br"
               />
             <ProjectCard
                 url="https://phishing.lukres.dev/"
@@ -56,7 +56,7 @@ export default function Projects() {
                 myTimeline="May 2024 - August 2024"
                 projectTimeline="May 2024 - August 2024"
                 delay={0.2}
-                gradient="bg-gradient-to-tl"
+                gradient="bg-gradient-to-bl"
             />
             <ProjectCard
                 url="https://lukres.dev/cas"
@@ -90,7 +90,7 @@ export default function Projects() {
                 myTimeline="April 2024 - Present"
                 projectTimeline="April 2024 - Present"
                 delay={0.2}
-                gradient="bg-gradient-to-br"
+                gradient="bg-gradient-to-tl"
             />
               <ProjectCard
                   url="https://discord.gg/ex8h77m49X"
@@ -113,7 +113,7 @@ export default function Projects() {
                   myTimeline="November 2022 - August 2023"
                   projectTimeline="November 2022 - August 2023"
                   delay={0.1}
-                  gradient="bg-gradient-to-bl"
+                  gradient="bg-gradient-to-br"
               />
             <ProjectCard
                 url="https://lukres.dev/home"
@@ -131,7 +131,7 @@ export default function Projects() {
                 myTimeline="April 2024 - Present"
                 projectTimeline="April 2024 - Present"
                 delay={0.2}
-                gradient="bg-gradient-to-tr"
+                gradient="bg-gradient-to-br"
             />
           </ul>
         </section>
