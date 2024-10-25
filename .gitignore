@@ -35,8 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 start.sh
-
-!/project_structure.txt
-!/claude_upload/
-
 .env
+
+/.idea/
