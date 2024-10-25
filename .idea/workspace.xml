@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="" />
+    <list default="true" id="97d31fff-b004-45b9-a867-01897da7fa0d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/PresenceCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/index/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/index/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/index/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typings/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typings/index.d.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,14 +169,8 @@
       <workItem from="1729112007652" duration="7001000" />
       <workItem from="1729165018229" duration="10321000" />
       <workItem from="1729668246704" duration="2000" />
-    </task>
-    <task id="LOCAL-00034" summary="hmm">
-      <option name="closed" value="true" />
-      <created>1716755428962</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1716755428962</updated>
+      <workItem from="1729717224462" duration="733000" />
+      <workItem from="1729835846633" duration="2710000" />
     </task>
     <task id="LOCAL-00035" summary="new Projects.tsx">
       <option name="closed" value="true" />
@@ -549,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729416833218</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Project added">
+      <option name="closed" value="true" />
+      <created>1729717328671</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1729717328671</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +594,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="small update" />
     <MESSAGE value="Small additions to decrease loading time" />
     <MESSAGE value="Cas.tsx beautiful now" />
     <MESSAGE value="Cas" />
@@ -604,6 +618,7 @@
     <MESSAGE value="Projects edited" />
     <MESSAGE value="Techs updated" />
     <MESSAGE value="Images fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Images fixed" />
+    <MESSAGE value="Project added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project added" />
   </component>
 </project>

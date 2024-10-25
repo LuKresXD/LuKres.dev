@@ -1,6 +1,8 @@
 import AboutCard from "@/components/AboutCard";
-import { Tech } from "../../../../typings";
+import { Presence, Tech } from "../../../../typings";
 import { motion } from "framer-motion";
+import PresenceCard from "@/components/PresenceCard";
+import { useEffect, useState } from "react";
 
 export default function About() {
 
@@ -20,8 +22,7 @@ export default function About() {
         { title: "OpenCV", icon: <img draggable={false} className="h-6" src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/ztf1gyeq.png" />, link: "https://opencv.org/" },
         { title: "PostgreSQL", icon: <svg className="h-6 fill-[#FFFFFF]" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.082 5.593c-0.564 0.564-0.423 1.213 0.564 2.679 0.508 0.761 1.1 1.946 1.326 2.623 0.226 0.705 0.677 1.664 0.987 2.143 0.564 0.79 0.564 0.959 0.197 2.397-0.226 0.902-0.31 2.031-0.197 2.736 0.169 1.185 1.128 2.905 1.72 3.102 0.508 0.169 1.241-0.733 1.269-1.551 0-0.705 0.028-0.733 0.338-0.226 0.536 0.874 2.228 2.735 2.369 2.594 0.056-0.056-0.31-0.79-0.846-1.607-0.508-0.846-1.1-1.946-1.325-2.454-0.31-0.846-0.423-0.902-0.79-0.508-0.226 0.226-0.508 0.874-0.592 1.466-0.226 1.354-0.733 1.523-1.128 0.367s-0.395-3.131 0-4.484c0.282-0.931 0.254-1.184-0.226-1.89-0.31-0.423-0.79-1.438-1.044-2.256-0.254-0.79-0.846-1.974-1.325-2.595-1.1-1.551-1.1-2.115 0.056-1.89 0.479 0.085 1.213 0.423 1.664 0.733 0.423 0.31 1.156 0.564 1.607 0.564 1.354 0 3.723 1.326 5.443 3.046 1.326 1.325 2.002 2.397 3.441 5.302 1.692 3.44 1.833 3.638 2.877 3.976 1.241 0.423 3.835 2.002 3.835 2.341 0 0.113-0.649 0.282-1.438 0.338-2.115 0.226-2.313 0.62-0.931 1.861 0.649 0.564 1.862 1.438 2.736 1.918l1.579 0.902-0.733-0.931c-0.423-0.508-1.297-1.297-1.974-1.72s-1.213-0.874-1.213-0.987c0-0.113 0.479-0.31 1.072-0.395 1.579-0.282 2.03-0.423 2.03-0.705 0-0.423-2.848-2.566-4.202-3.159-1.156-0.536-1.297-0.762-2.792-3.835-1.326-2.82-1.861-3.61-3.553-5.302-2.171-2.171-3.666-3.102-5.584-3.384-0.649-0.113-1.551-0.451-1.946-0.733-0.931-0.705-2.82-0.959-3.272-0.479z"/></svg>, link: "https://www.postgresql.org/" },
         { title: "Node.js", icon: <img draggable={false} className="h-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />, link: "https://nodejs.org/en/" },
-        { title: "Next.js", icon: <img draggable={false} className="h-6" style={{ filter: 'invert(1)' }} src="https://cdn.worldvectorlogo.com/logos/next-js.svg" />, link: "https://nextjs.org/" },
-        { title: "Python", icon: <img draggable={false} className="h-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />, link: "https://www.python.org/" },
+        { title: "NuxtJS", icon: <svg className="h-5 w-[30px]" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M168 200H279C282.542 200 285.932 198.756 289 197C292.068 195.244 295.23 193.041 297 190C298.77 186.959 300.002 183.51 300 179.999C299.998 176.488 298.773 173.04 297 170.001L222 41C220.23 37.96 218.067 35.7552 215 34C211.933 32.2448 207.542 31 204 31C200.458 31 197.067 32.2448 194 34C190.933 35.7552 188.77 37.96 187 41L168 74L130 9.99764C128.228 6.95784 126.068 3.75491 123 2C119.932 0.245087 116.542 0 113 0C109.458 0 106.068 0.245087 103 2C99.9323 3.75491 96.7717 6.95784 95 9.99764L2 170.001C0.226979 173.04 0.00154312 176.488 1.90993e-06 179.999C-0.0015393 183.51 0.229648 186.959 2 190C3.77035 193.04 6.93245 195.244 10 197C13.0675 198.756 16.4578 200 20 200H90C117.737 200 137.925 187.558 152 164L186 105L204 74L259 168H186L168 200ZM89 168H40L113 42L150 105L125.491 147.725C116.144 163.01 105.488 168 89 168Z" fill="#00DC82"></path></svg>, link: "https://nuxt.com/" },        { title: "Python", icon: <img draggable={false} className="h-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />, link: "https://www.python.org/" },
         { title: "C++", icon: <img draggable={false} className="h-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />, link: "https://isocpp.org/" },
         { title: "Docker", icon: <img draggable={false} className="h-6" src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/vssieasx.png" />, link: "https://www.docker.com/" },
         { title: "JavaScript", icon: <img draggable={false} className="h-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />, link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
@@ -41,6 +42,37 @@ export default function About() {
         { title: "DuckyScript", icon: <img draggable={false} className="h-6" src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/wh9qs3vu.png" />, link: "https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript" },
         { title: "Terminal", icon: <img draggable={false} className="h-6" src="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/kblm9g2n.png" />, link: "https://en.wikipedia.org/wiki/Terminal_emulator" }
     ];
+
+    const [presence, setPresence] = useState<Presence | null>(null);
+    const [date, setDate] = useState(new Date());
+
+    useEffect(() => {
+        const socket = new WebSocket(`wss://api.lukres.dev/presence`)
+
+        const handleOpen = () => {
+            socket.send("Connection established")
+        }
+
+        const handleMessage = (event: MessageEvent) => {
+            if (event.data !== "connected") {
+                setPresence(JSON.parse(event.data))
+            }
+        }
+
+        socket.addEventListener("open", handleOpen)
+        socket.addEventListener("message", handleMessage)
+
+        const timer = setInterval(() => {
+            setDate(new Date())
+        }, 1000)
+
+        return () => {
+            socket.removeEventListener("open", handleOpen)
+            socket.removeEventListener("message", handleMessage)
+            socket.close()
+            clearInterval(timer)
+        }
+    }, [])
 
     return (
         <>
@@ -79,17 +111,27 @@ export default function About() {
                         direction="right"
                         span={1}
                         delay={0.2}
-                        gradient="bg-gradient-to-tl"
+                        gradient="bg-gradient-to-bl"
                     />
                     <AboutCard
                         title="Other Technologies"
                         description="In addition to development, I frequently use a range of tools and platforms like GitHub, Cloudflare, and Flipper Zero."
                         tech={otherTech}
                         direction="bottom"
-                        span={2}
+                        span={presence && presence.activities.length > 0 ? 1 : 2}
                         delay={0.1}
-                        gradient="bg-gradient-to-t"
+                        gradient="bg-gradient-to-tr"
                     />
+                    {presence && presence.activities.length > 0 &&
+                        <PresenceCard
+                            presence={presence}
+                            date={date}
+                            direction="bottom"
+                            span={1}
+                            delay={0.1}
+                            gradient="bg-gradient-to-tl"
+                        />
+                    }
                 </ul>
             </section>
         </>
