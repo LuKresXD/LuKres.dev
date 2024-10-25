@@ -79,9 +79,9 @@ export default function Hero({ inView, descRef }: { inView: boolean, descRef: an
                             </svg>}
                             delay={0.7}
                         />
-                        <div className="w-64 mt-4 sm:mt-0">
+                        {/*<div className="w-64 mt-4 sm:mt-0">
                             <LastFmWidget delay={0.8}/>
-                        </div>
+                        </div>*/}
                     </ul>
                 </motion.div>
             </section>
