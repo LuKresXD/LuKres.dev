@@ -7,7 +7,7 @@ import About from "@/components/sections/index/About";
 import Projects from "@/components/sections/index/Projects";
 import Footer from "@/components/sections/index/Footer";
 import { GridPattern } from "@/components/GridPattern";
-import PresenceCard from "@/components/PresenceCard";
+import Experience from "@/components/sections/index/Experience";
 
 export default function Home() {
 
@@ -29,6 +29,7 @@ export default function Home() {
                 />
                 <Hero inView={inView} descRef={ref} />
                 <About />
+                <Experience />
                 <Projects />
                 <Footer />
             </main>

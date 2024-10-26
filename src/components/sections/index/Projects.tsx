@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 export default function Projects() {
-  const [showAll, setShowAll] = useState(false);
+    //set to true by default for now because there aren't enough projects to warrant a show more button
+    const [showAll, setShowAll] = useState(true);
 
   return (
       <>
@@ -18,7 +19,12 @@ export default function Projects() {
           >
             Projects
           </motion.h1>
-          <ul className={`${showAll ? '' : 'max-h-[100rem]'} grid md:grid-cols-2 pt-6 pb-1 grid-cols-1 gap-4 overflow-hidden`}>
+            <ul className={`${showAll ? '' : 'max-h-[100rem]'} grid md:grid-cols-2 pt-6 pb-1 grid-cols-1 gap-4 overflow-hidden`}>
+                {!showAll &&
+                    <div className="absolute flex justify-center bottom-[5rem] z-10 bg-gradient-to-t from-background pb-8 pt-32 max-w-4xl w-full">
+                        <Button label="Show More" onClick={() => setShowAll(true)} width="w-[10rem]" />
+                    </div>
+                }
               <ProjectCard
                   url="https://solvestream.org/"
                   title="SolveStream"
@@ -33,8 +39,7 @@ export default function Projects() {
                       "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/45aumpmk.png"
                   ]}
                   myRole="Founder, Developer"
-                  myTimeline="June 2024 - Present"
-                  projectTimeline="June 2024 - Present"
+                  timeline="June 2024 - Present"
                   delay={0.1}
                   gradient="bg-gradient-to-br"
               />
@@ -53,8 +58,7 @@ export default function Projects() {
                     "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/dj9uuxer.png"
                 ]}
                 myRole="Founder, Developer"
-                myTimeline="May 2024 - August 2024"
-                projectTimeline="May 2024 - August 2024"
+                timeline="May 2024 - August 2024"
                 delay={0.2}
                 gradient="bg-gradient-to-bl"
             />
@@ -70,8 +74,7 @@ export default function Projects() {
                   "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/h174xqqs.jpg"
                 ]}
                 myRole="Co-Founder, Engineer"
-                myTimeline="November 2023 - July 2024"
-                projectTimeline="November 2023 - July 2024"
+                timeline="November 2023 - July 2024"
                 delay={0.1}
                 gradient="bg-gradient-to-tr"
             />
@@ -87,8 +90,7 @@ export default function Projects() {
                   "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/85nw8ufg.png"
                 ]}
                 myRole="Founder, Developer"
-                myTimeline="April 2024 - Present"
-                projectTimeline="April 2024 - Present"
+                timeline="April 2024 - Present"
                 delay={0.2}
                 gradient="bg-gradient-to-tl"
             />
@@ -110,8 +112,7 @@ export default function Projects() {
                       "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/0uiqieur.png"
                   ]}
                   myRole="Co-Founder, Developer, Suport"
-                  myTimeline="November 2022 - August 2023"
-                  projectTimeline="November 2022 - August 2023"
+                  timeline="November 2022 - August 2023"
                   delay={0.1}
                   gradient="bg-gradient-to-br"
               />
@@ -128,8 +129,7 @@ export default function Projects() {
                     "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/8fruzhc1.png"
                 ]}
                 myRole="Founder, Developer"
-                myTimeline="April 2024 - Present"
-                projectTimeline="April 2024 - Present"
+                timeline="April 2024 - Present"
                 delay={0.2}
                 gradient="bg-gradient-to-br"
             />
