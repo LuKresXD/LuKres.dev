@@ -17,8 +17,8 @@ export default function Experience() {
                 </motion.h1>
                 <ul className={`flex flex-col pt-6 pb-1 gap-4 overflow-hidden`}>
                     <ExperienceCard
-                        url="https://jsa-group.ru/"
-                        title="JSA Group Internship"
+                        url="https://jsa-group.ru/en/"
+                        title="JSA Group"
                         fullDescription={[
                             "During my internship at JSA, I contributed across multiple domains, including data science, information security, VR development, and industrial safety systems. I gained practical experience in data processing, statistical analysis, and machine learning, where I provided in-depth analyses to solve complex problems.",
                             "I also explored information security, focusing on protocols, vulnerability assessments, and data protection best practices. In VR development, I quickly adapted to create innovative solutions. A major highlight was working on a safety module for an industrial platform, where I developed safety mechanisms to enhance miner and machine operator security, identifying improvement areas and ensuring adherence to high-security standards.",
