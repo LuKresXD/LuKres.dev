@@ -15,6 +15,17 @@ export default function Navbar() {
     };
 
     const handleClickScroll2 = () => {
+        const element = document.getElementById('experience');
+        if (element) {
+            const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+                top: elementPosition - 50,
+                behavior: 'smooth'
+            });
+        }
+    };
+
+    const handleClickScroll3 = () => {
         const element = document.getElementById('projects');
         if (element) {
             const elementPosition = element.getBoundingClientRect().top + window.scrollY;
@@ -36,11 +47,17 @@ export default function Navbar() {
                 <nav style={{ boxShadow: '0 0 30px 2.5px #0a0a0a' }} className="flex h-14 max-w-[46rem] w-screen bg-gradient-to-br from-primary/90 to to-secondary/90 backdrop-blur-md rounded-lg border-1 border-accent px-4">
                     <div className="flex flex-row items-center justify-between w-full">
                         <div className="flex flex-row gap-2 items-center">
-                            <img alt="" draggable={false} className="h-10 w-10" src="/me.png" />
-                            <button onClick={handleClickScroll} className="p-2 duration-300 text-lg font-medium hover:bg-secondary rounded-md">
+                            <img alt="" draggable={false} className="h-10 w-10" src="/me.png"/>
+                            <button onClick={handleClickScroll}
+                                    className="p-2 duration-300 text-lg font-medium hover:bg-secondary rounded-md">
                                 About
                             </button>
-                            <button onClick={handleClickScroll2} className="p-2 duration-300 text-lg font-medium hover:bg-secondary rounded-md">
+                            <button onClick={handleClickScroll2}
+                                    className="p-2 duration-300 text-lg font-medium hover:bg-secondary rounded-md">
+                                Experience
+                            </button>
+                            <button onClick={handleClickScroll3}
+                                    className="p-2 duration-300 text-lg font-medium hover:bg-secondary rounded-md">
                                 Projects
                             </button>
                         </div>
