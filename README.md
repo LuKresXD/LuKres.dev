@@ -3,6 +3,8 @@
 ## Description
 This is the repository for my personal portfolio website, showcasing my projects, skills, and interests. Built with Next.js and TailwindCSS, this site provides a comprehensive overview of my journey as a developer and cybersecurity enthusiast.
 
+Presence system requires https://github.com/LuKresXD/lukres.dev_presence
+
 ## Features
 - **About Me**: Detailed information about my background, interests, and skills in various areas of development and cybersecurity.
 - **Projects**: Descriptions and links to some of my notable projects, including a Phishing Website Detector, RubberDucky Payloads, and my personal Minecraft server.

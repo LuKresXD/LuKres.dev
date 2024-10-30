@@ -13,7 +13,7 @@ export default function Experience() {
                     transition={{duration: 0.5, delay: 0.1, ease: [0.39, 0.21, 0.12, 0.96],}}
                     viewport={{amount: 0.1, once: true}}
                 >
-                    Job Experience
+                    Work Experience
                 </motion.h1>
                 <ul className={`flex flex-col pt-6 pb-1 gap-4 overflow-hidden`}>
                     <ExperienceCard
@@ -44,7 +44,7 @@ export default function Experience() {
                         myRole="Intern"
                         timeline="May 2024 - June 2024"
                         delay={0.2}
-                        gradient="bg-gradient-to-tr"
+                        gradient="bg-gradient-to-br"
                     />
                 </ul>
             </section>

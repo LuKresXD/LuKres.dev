@@ -43,8 +43,7 @@ export default function MediaCarousel({ media }: { media: string[] }) {
                             src={src}
                             muted
                             loop
-                            playsInline
-                            autoPlay
+                            controls
                         />
                         :
                         <img
