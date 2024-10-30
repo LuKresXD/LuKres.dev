@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 import { ChevronLeft, ChevronRight, X, Play} from 'lucide-react';
-import Divider from "@/components/Divider";
+import { useInView } from 'react-intersection-observer'; // Added import
 
 interface MediaItem {
     src: string;
@@ -17,6 +17,41 @@ interface MediaItem {
 export default function CASProject() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isOpen, setIsOpen] = useState(false);
+
+    const [heroRef, heroInView] = useInView({
+        threshold: 0.1,
+        triggerOnce: true,
+    });
+
+    const [overviewRef, overviewInView] = useInView({
+        threshold: 0.1,
+        triggerOnce: true,
+    });
+
+    const [manufacturingRef, manufacturingInView] = useInView({
+        threshold: 0.1,
+        triggerOnce: true,
+    });
+
+    const [pumpRef, pumpInView] = useInView({
+        threshold: 0.1,
+        triggerOnce: true,
+    });
+
+    const [resultsRef, resultsInView] = useInView({
+        threshold: 0.1,
+        triggerOnce: true,
+    });
+
+    const [demoRef, demoInView] = useInView({
+        threshold: 0.1,
+        triggerOnce: true,
+    });
+
+    const [impactRef, impactInView] = useInView({
+        threshold: 0.1,
+        triggerOnce: true,
+    });
 
     const mediaItems: MediaItem[] = [
         {
@@ -97,8 +132,9 @@ export default function CASProject() {
                 <div className='max-w-6xl w-full mx-auto px-4 py-8'>
                     {/* Hero Section */}
                     <motion.section
+                        ref={heroRef}
                         initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        animate={heroInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                         transition={{ duration: 0.6 }}
                         className="mb-16"
                     >
@@ -114,11 +150,12 @@ export default function CASProject() {
                         </div>
                     </motion.section>
 
-                    {/* Project Overview Section with Main Images */}
+                    {/* Project Overview Section */}
                     <motion.section
+                        ref={overviewRef}
                         initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.2 }}
+                        animate={overviewInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                        transition={{ duration: 0.6 }}
                         className="mb-16"
                     >
                         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-8">
@@ -183,22 +220,29 @@ export default function CASProject() {
 
                     {/* Design and Manufacturing Section */}
                     <motion.section
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.3 }}
+                        ref={manufacturingRef}
+                        initial={{opacity: 0, y: 20}}
+                        animate={manufacturingInView ? {opacity: 1, y: 0} : {opacity: 0, y: 20}}
+                        transition={{duration: 0.6}}
                         className="mb-16"
                     >
-                        <div className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl mb-8">
+                        <div
+                            className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl mb-8">
                             <h2 className="text-white text-2xl font-bold mb-4">Manufacturing Process</h2>
                             <div className="space-y-4 text-white">
                                 <p className="text-lg leading-relaxed">
-                                    Our manufacturing process utilizes LCD 3D printing technology with an Anycubic Photon 2 printer,
-                                    providing accuracy up to 50 micrometers in all dimensions. The process includes printing,
-                                    isopropanol washing, curing, and a 24-hour rest period to ensure optimal PDMS chip quality.
+                                    Our manufacturing process utilizes LCD 3D printing technology with an Anycubic
+                                    Photon 2 printer,
+                                    providing accuracy up to 50 micrometers in all dimensions. The process includes
+                                    printing,
+                                    isopropanol washing, curing, and a 24-hour rest period to ensure optimal PDMS chip
+                                    quality.
                                 </p>
                                 <p className="text-lg leading-relaxed">
-                                    The PDMS casting technique uses a two-component silicone compound &quot;Silagerm 8040&quot;, cured at a
-                                    reduced temperature of 50°C to prevent master deformation. The final assembly includes surface
+                                    The PDMS casting technique uses a two-component silicone compound &quot;Silagerm
+                                    8040&quot;, cured at a
+                                    reduced temperature of 50°C to prevent master deformation. The final assembly
+                                    includes surface
                                     activation and careful installation of inlets and outlets.
                                 </p>
                             </div>
@@ -207,8 +251,8 @@ export default function CASProject() {
                             {[1, 2, 3].map((index) => (
                                 <motion.div
                                     key={index}
-                                    whileHover={{ scale: 1.02 }}
-                                    transition={{ duration: 0.2 }}
+                                    whileHover={{scale: 1.02}}
+                                    transition={{duration: 0.2}}
                                     className="relative aspect-video cursor-pointer overflow-hidden rounded-lg border border-accent"
                                     onClick={() => openLightbox(index)}
                                 >
@@ -217,7 +261,8 @@ export default function CASProject() {
                                         alt={mediaItems[index].alt}
                                         className="object-cover w-full h-full hover:brightness-110 transition-all duration-300"
                                     />
-                                    <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                                    <div
+                                        className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
                                         <p className="text-white text-sm">{mediaItems[index].alt}</p>
                                     </div>
                                 </motion.div>
@@ -227,23 +272,30 @@ export default function CASProject() {
 
                     {/* Pump System Section */}
                     <motion.section
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.4 }}
+                        ref={pumpRef}
+                        initial={{opacity: 0, y: 20}}
+                        animate={pumpInView ? {opacity: 1, y: 0} : {opacity: 0, y: 20}}
+                        transition={{duration: 0.6}}
                         className="mb-16"
                     >
                         <div className="grid md:grid-cols-2 gap-8">
-                            <div className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl">
+                            <div
+                                className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl">
                                 <h2 className="text-white text-2xl font-bold mb-4">Peristaltic Pump System</h2>
                                 <div className="space-y-4 text-white">
                                     <p className="text-lg leading-relaxed">
-                                        Our innovative pump system features four synchronized peristaltic pumps in a custom 3D-printed
-                                        enclosure. Controlled by Arduino with PWM, the system enables precise flow rate control for both
-                                        reactant fluids and oil phases, with real-time adjustments possible during experiments.
+                                        Our innovative pump system features four synchronized peristaltic pumps in a
+                                        custom 3D-printed
+                                        enclosure. Controlled by Arduino with PWM, the system enables precise flow rate
+                                        control for both
+                                        reactant fluids and oil phases, with real-time adjustments possible during
+                                        experiments.
                                     </p>
                                     <p className="text-lg leading-relaxed">
-                                        The total cost per pump unit, including all components, is approximately $48 - less than half
-                                        the cost of conventional syringe pumps while maintaining reliable performance for droplet generation.
+                                        The total cost per pump unit, including all components, is approximately $48 -
+                                        less than half
+                                        the cost of conventional syringe pumps while maintaining reliable performance
+                                        for droplet generation.
                                     </p>
                                 </div>
                             </div>
@@ -251,8 +303,8 @@ export default function CASProject() {
                                 {[4, 5].map((index) => (
                                     <motion.div
                                         key={index}
-                                        whileHover={{ scale: 1.02 }}
-                                        transition={{ duration: 0.2 }}
+                                        whileHover={{scale: 1.02}}
+                                        transition={{duration: 0.2}}
                                         className="relative aspect-video cursor-pointer overflow-hidden rounded-lg border border-accent"
                                         onClick={() => openLightbox(index)}
                                     >
@@ -261,7 +313,8 @@ export default function CASProject() {
                                             alt={mediaItems[index].alt}
                                             className="object-cover w-full h-full hover:brightness-110 transition-all duration-300"
                                         />
-                                        <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                                        <div
+                                            className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
                                             <p className="text-white text-sm">{mediaItems[index].alt}</p>
                                         </div>
                                     </motion.div>
@@ -272,30 +325,36 @@ export default function CASProject() {
 
                     {/* Results and Analysis Section */}
                     <motion.section
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.5 }}
+                        ref={resultsRef}
+                        initial={{opacity: 0, y: 20}}
+                        animate={resultsInView ? {opacity: 1, y: 0} : {opacity: 0, y: 20}}
+                        transition={{duration: 0.6}}
                         className="mb-16"
                     >
-                        <div className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl mb-8">
+                        <div
+                            className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl mb-8">
                             <h2 className="text-white text-2xl font-bold mb-4">Results & Analysis</h2>
                             <div className="space-y-4 text-white">
                                 <p className="text-lg leading-relaxed">
-                                    Using Python and OpenCV, we developed a sophisticated tracking system for analyzing droplet
-                                    formation and flow dynamics. The system processes high-resolution video feed from our digital
+                                    Using Python and OpenCV, we developed a sophisticated tracking system for analyzing
+                                    droplet
+                                    formation and flow dynamics. The system processes high-resolution video feed from
+                                    our digital
                                     microscope, enabling real-time monitoring of droplet size and speed.
                                 </p>
                                 <p className="text-lg leading-relaxed">
-                                    Our project successfully demonstrates the feasibility of implementing advanced microfluidics
-                                    technology in educational settings. The system achieves stable droplet formation with sizes
+                                    Our project successfully demonstrates the feasibility of implementing advanced
+                                    microfluidics
+                                    technology in educational settings. The system achieves stable droplet formation
+                                    with sizes
                                     ranging from 50 to 150 micrometers and channel flow speeds of 0.5 to 2 mm/s.
                                 </p>
                             </div>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <motion.div
-                                whileHover={{ scale: 1.02 }}
-                                transition={{ duration: 0.2 }}
+                                whileHover={{scale: 1.02}}
+                                transition={{duration: 0.2}}
                                 className="relative aspect-video cursor-pointer overflow-hidden rounded-lg border border-accent"
                                 onClick={() => openLightbox(6)}
                             >
@@ -304,13 +363,14 @@ export default function CASProject() {
                                     alt={mediaItems[6].alt}
                                     className="object-cover w-full h-full hover:brightness-110 transition-all duration-300"
                                 />
-                                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                                <div
+                                    className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
                                     <p className="text-white text-sm">{mediaItems[6].alt}</p>
                                 </div>
                             </motion.div>
                             <motion.div
-                                whileHover={{ scale: 1.02 }}
-                                transition={{ duration: 0.2 }}
+                                whileHover={{scale: 1.02}}
+                                transition={{duration: 0.2}}
                                 className="relative aspect-video cursor-pointer overflow-hidden rounded-lg border border-accent"
                                 onClick={() => openLightbox(7)}
                             >
@@ -319,7 +379,8 @@ export default function CASProject() {
                                     alt={mediaItems[7].alt}
                                     className="object-cover w-full h-full hover:brightness-110 transition-all duration-300"
                                 />
-                                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                                <div
+                                    className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
                                     <p className="text-white text-sm">{mediaItems[7].alt}</p>
                                 </div>
                             </motion.div>
@@ -328,12 +389,14 @@ export default function CASProject() {
 
                     {/* Video Demonstration Section */}
                     <motion.section
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.6 }}
+                        ref={demoRef}
+                        initial={{opacity: 0, y: 20}}
+                        animate={demoInView ? {opacity: 1, y: 0} : {opacity: 0, y: 20}}
+                        transition={{duration: 0.6}}
                         className="mb-16"
                     >
-                        <div className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl mb-8">
+                        <div
+                            className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl mb-8">
                             <h2 className="text-white text-2xl font-bold mb-4">Process Demonstration</h2>
                             <div className="relative aspect-video cursor-pointer overflow-hidden rounded-lg"
                                  onClick={() => openLightbox(8)}>
@@ -347,9 +410,10 @@ export default function CASProject() {
                                 />
                                 <div className="absolute in
                                 set-0 flex items-center justify-center bg-black/30">
-                                    <Play className="w-16 h-16 text-white opacity-80" />
+                                    <Play className="w-16 h-16 text-white opacity-80"/>
                                 </div>
-                                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                                <div
+                                    className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
                                     <p className="text-white text-sm">{mediaItems[8].alt}</p>
                                 </div>
                             </div>
@@ -358,24 +422,32 @@ export default function CASProject() {
 
                     {/* Educational Impact Section */}
                     <motion.section
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.7 }}
+                        ref={impactRef}
+                        initial={{opacity: 0, y: 20}}
+                        animate={impactInView ? {opacity: 1, y: 0} : {opacity: 0, y: 20}}
+                        transition={{duration: 0.6}}
                         className="mb-16"
                     >
-                        <div className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl">
+                        <div
+                            className="bg-gradient-to-br from-primary to-secondary p-6 rounded-lg border border-accent shadow-2xl">
                             <h2 className="text-white text-2xl font-bold mb-4">Educational Impact</h2>
                             <div className="space-y-4 text-white">
                                 <p className="text-lg leading-relaxed">
-                                    This project demonstrates how microfluidics technology can be cost-effectively implemented
-                                    in educational settings. Our approach makes cutting-edge science accessible to students,
-                                    providing hands-on experience with advanced technology while maintaining high precision
+                                    This project demonstrates how microfluidics technology can be cost-effectively
+                                    implemented
+                                    in educational settings. Our approach makes cutting-edge science accessible to
+                                    students,
+                                    providing hands-on experience with advanced technology while maintaining high
+                                    precision
                                     and reliability.
                                 </p>
                                 <p className="text-lg leading-relaxed">
-                                    The described procedure is accessible, does not require specialized equipment, and can be
-                                    used or modified further for various purposes. The integration of digital microscopy and
-                                    computer vision analysis simplifies the quantitative investigation of droplets, making it
+                                    The described procedure is accessible, does not require specialized equipment, and
+                                    can be
+                                    used or modified further for various purposes. The integration of digital microscopy
+                                    and
+                                    computer vision analysis simplifies the quantitative investigation of droplets,
+                                    making it
                                     ideal for educational environments.
                                 </p>
                             </div>
