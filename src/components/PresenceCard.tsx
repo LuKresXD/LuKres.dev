@@ -71,16 +71,35 @@ export default function PresenceCard({ presence, date, direction, span, gradient
                                         <p className="text-lg font-medium leading-6 text-nowrap truncate">
                                             {activity.state}
                                         </p>
-                                        {activity.timestamps.end && !activity.timestamps.start &&
+                                        {activity.timestamps && activity.timestamps.end && !activity.timestamps.start && (
                                             <p className="text-base leading-6 text-nowrap truncate">
                                                 {new Date((new Date(activity.timestamps.end).getTime() - date.getTime())).toISOString().slice(11, 19)} left
                                             </p>
-                                        }
-                                        {activity.timestamps.start && !activity.timestamps.end &&
+                                        )}
+                                        {activity.timestamps && activity.timestamps.start && !activity.timestamps.end && (
                                             <p className="text-base leading-6 text-nowrap truncate">
                                                 {new Date((date.getTime() - new Date(activity.timestamps.start).getTime())).toISOString().slice(11, 19)} elapsed
                                             </p>
-                                        }
+                                        )}
+                                        {activity.timestamps && activity.timestamps.start && activity.timestamps.end && (
+                                            <div className="flex flex-row gap-2 justify-between mt-1 items-center">
+                                                <p className={`whitespace-normal text-sm`}>
+                                                    {new Date((date.getTime() - new Date(activity.timestamps.start).getTime())).toISOString().slice(14, 19)}
+                                                </p>
+                                                <div className="w-full rounded-full h-2 bg-secondary overflow-x-hidden">
+                                                    <div
+                                                        style={{
+                                                            width: `${((date.getTime() - new Date(activity.timestamps.start).getTime()) /
+                                                                (new Date(activity.timestamps.end).getTime() - new Date(activity.timestamps.start).getTime())) * 100}%`
+                                                        }}
+                                                        className="h-2 rounded-full bg-white">
+                                                    </div>
+                                                </div>
+                                                <p className={`whitespace-normal text-sm`}>
+                                                    {new Date((new Date(activity.timestamps.end).getTime() - new Date(activity.timestamps.start).getTime())).toISOString().slice(14, 19)}
+                                                </p>
+                                            </div>
+                                        )}
                                     </div>
                                 }
                             </div>
