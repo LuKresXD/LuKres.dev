@@ -31,12 +31,14 @@ export default function Projects() {
                   fullDescription={[
                       "[IN DEVELOPMENT] SolveStream is an innovative solution for students seeking real-time help with their academic problems. Acting like a chat-roulette for education, it pairs students with professors or subject experts who can answer questions and provide guidance via live video calls. With a robust category system, students can quickly find experts in their field, while a rating system ensures high-quality assistance. SolveStream aims to bridge the gap between students and academic professionals, creating an efficient way to solve technical and academic problems without the delay of traditional forums or tutoring services. Still in development, SolveStream promises to transform how students engage with learning resources."
                   ]}
-                  cardImage="https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/9iize4cn.png"
+                  cardImage="https://r2.e-z.host/d6000dcc-4c91-436f-9496-719542168253/8ihmkcad.png"
                   cardDescription="A revolutionary academic platform connecting students and professors via real-time video calls to solve educational challenges."
                   media={[
-                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/9iize4cn.png",
-                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/w9eeyxvk.png",
-                      "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/45aumpmk.png"
+                      "https://r2.e-z.host/d6000dcc-4c91-436f-9496-719542168253/k71k3l2g.mp4",
+                      "https://r2.e-z.host/d6000dcc-4c91-436f-9496-719542168253/8ihmkcad.png",
+                      "https://r2.e-z.host/d6000dcc-4c91-436f-9496-719542168253/wu26jwvh.png",
+                      "https://r2.e-z.host/d6000dcc-4c91-436f-9496-719542168253/izj999we.png",
+                      "https://r2.e-z.host/d6000dcc-4c91-436f-9496-719542168253/bnxrty92.png"
                   ]}
                   myRole="Founder, Developer"
                   timeline="June 2024 - Present"
