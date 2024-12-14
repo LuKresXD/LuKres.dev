@@ -25,8 +25,8 @@ interface CloudinaryUploadOptions {
 // Configure Cloudinary
 cloudinary.config({
     cloud_name: 'dygcwhekh',
-    api_key: '753634615487836',
-    api_secret: 'zbEVR6NnzJ65NeHnolwOLTtT08s'
+    api_key: '???',
+    api_secret: '???'
 });
 
 // URLs that need migration (r2.e-z.host URLs)
