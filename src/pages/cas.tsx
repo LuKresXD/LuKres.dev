@@ -55,47 +55,47 @@ export default function CASProject() {
 
     const mediaItems: MediaItem[] = [
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/h174xqqs.jpg",
+            src: "https://res.cloudinary.com/dygcwhekh/image/upload/v1734169330/lukres.dev/h174xqqs.jpg",
             alt: "Overview of the Microfluidics Setup",
             type: "image"
         },
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/47vlrhlq.png",
+            src: "https://res.cloudinary.com/dygcwhekh/image/upload/v1734169269/lukres.dev/47vlrhlq.png",
             alt: "Demonstration of the fabrication process for PDMS layers and microstructures",
             type: "image"
         },
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/qa1kipsv.png",
+            src: "https://res.cloudinary.com/dygcwhekh/image/upload/v1734169361/lukres.dev/qa1kipsv.png",
             alt: "3D models of droplet-based LOCs designed in Fusion360",
             type: "image"
         },
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/4r1yqzxg.png",
+            src: "https://res.cloudinary.com/dygcwhekh/image/upload/v1734169272/lukres.dev/4r1yqzxg.png",
             alt: "Planar flow focusing droplet formation diagram",
             type: "image"
         },
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/waqgzk2n.png",
+            src: "https://res.cloudinary.com/dygcwhekh/image/upload/v1734169387/lukres.dev/waqgzk2n.png",
             alt: "Completed Lab-on-a-chip device",
             type: "image"
         },
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/m9i8m6xp.png",
+            src: "https://res.cloudinary.com/dygcwhekh/image/upload/v1734169346/lukres.dev/m9i8m6xp.png",
             alt: "Early prototype of the pump system",
             type: "image"
         },
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/8xhq6l0v.png",
+            src: "https://res.cloudinary.com/dygcwhekh/image/upload/v1734169294/lukres.dev/8xhq6l0v.png",
             alt: "Correlation graph showing Flow Rate with Droplet Speed",
             type: "image"
         },
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/dimji7zh.png",
+            src: "https://res.cloudinary.com/dygcwhekh/image/upload/v1734169324/lukres.dev/dimji7zh.png",
             alt: "Size Distribution in Microfluidic System",
             type: "image"
         },
         {
-            src: "https://r2.e-z.host/b79914eb-39d2-4ea1-a88d-58a44aa23f91/a3m2hwoj.mp4",
+            src: "https://res.cloudinary.com/dygcwhekh/video/upload/v1734169298/lukres.dev/a3m2hwoj.mp4",
             alt: "Droplet Demo",
             type: "video"
         },
