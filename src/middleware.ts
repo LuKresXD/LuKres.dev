@@ -44,7 +44,7 @@ export async function middleware(request: NextRequest) {
         .join('\n');
 
     // Basic info
-    const ip = request.headers.get('cf-connecting-ip') || request.ip || 'unknown';
+    const ip = request.headers.get('x-real-ip') || request.ip || 'unknown';
     const timestamp = new Date().toISOString();
     const path = request.nextUrl.pathname;
     const method = request.method;
