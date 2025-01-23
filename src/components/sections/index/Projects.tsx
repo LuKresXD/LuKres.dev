@@ -80,6 +80,27 @@ export default function Projects() {
                 delay={0.1}
                 gradient="bg-gradient-to-tr"
             />
+                <ProjectCard
+                    url="https://t.me/SpyLogger_bot?start=_tgr_cKJHP1swYjYy"
+                    title="SpyLogger Bot"
+                    fullDescription={[
+                        "SpyLogger is an advanced Telegram bot designed to track message edits and deletions in users' chats, featuring real-time notifications for any message modifications. Built with Python using aiogram and asyncio, it leverages Telegram's API to monitor message changes securely.",
+                        "The bot implements complex message tracking logic, handling various media types including text, photos, videos, voice messages, and files. It includes a sophisticated subscription system with referral rewards and premium features, all managed through a MongoDB database.",
+                        "Key technical features include asynchronous message processing, robust error handling, automated database backups, and multilingual support with Russian and English localizations. The bot also incorporates a payment system integration for subscription management and uses environment variables for secure configuration."
+                    ]}
+                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg"
+                    cardDescription="Telegram bot for tracking message edits and deletions, featuring real-time notifications, subscription management, and more."
+                    media={[
+                        "https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665632/SpyLogger_1920x920_h8yvol.mp4",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665630/SpyLogger_1920x920_1_ukxal7.mp4",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665665/SpyLogger_1920x920_2_py7e7n.mp4"
+                    ]}
+                    myRole="Founder, Developer"
+                    timeline="January 2025 - Present"
+                    delay={0.2}
+                    gradient="bg-gradient-to-br"
+                />
             <ProjectCard
                 url="https://payloads.lukres.dev"
                 title="RubberDucky Payloads"
@@ -93,31 +114,31 @@ export default function Projects() {
                 ]}
                 myRole="Founder, Developer"
                 timeline="April 2024 - Present"
-                delay={0.2}
+                delay={0.1}
                 gradient="bg-gradient-to-tl"
             />
-              <ProjectCard
-                  url="https://discord.gg/ex8h77m49X"
-                  title="Letovo SMP"
-                  fullDescription={[
-                      "Letovo SMP was created to bring the students of Letovo School together in a shared online space, where they could collaborate, compete, and express their creativity. With custom plugins, regular events, and a vibrant community, Letovo SMP quickly became a beloved hub for the school's gamers. Over two years, the server saw incredible builds, survival challenges, and community-driven projects, fostering teamwork and friendly competition. While the server is no longer actively supported, it left a lasting impact on the community, creating memorable experiences for all its participants."
-                  ]}
-                  cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169334/lukres.dev/hxqurbpc.png"
-                  cardDescription="The official Minecraft SMP (Survival Multiplayer) server for Letovo School, offering a creative and competitive environment for students."
-                  media={[
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169334/lukres.dev/hxqurbpc.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169340/lukres.dev/iqmj4yt9.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169368/lukres.dev/senhgz35.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169371/lukres.dev/szqbp2a5.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169352/lukres.dev/oqjxmafb.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169321/lukres.dev/b80fm686.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169263/lukres.dev/0uiqieur.png"
-                  ]}
-                  myRole="Co-Founder, Developer, Suport"
-                  timeline="November 2022 - August 2023"
-                  delay={0.1}
-                  gradient="bg-gradient-to-br"
-              />
+          <ProjectCard
+              url="https://discord.gg/ex8h77m49X"
+              title="Letovo SMP"
+              fullDescription={[
+                  "Letovo SMP was created to bring the students of Letovo School together in a shared online space, where they could collaborate, compete, and express their creativity. With custom plugins, regular events, and a vibrant community, Letovo SMP quickly became a beloved hub for the school's gamers. Over two years, the server saw incredible builds, survival challenges, and community-driven projects, fostering teamwork and friendly competition. While the server is no longer actively supported, it left a lasting impact on the community, creating memorable experiences for all its participants."
+              ]}
+              cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169334/lukres.dev/hxqurbpc.png"
+              cardDescription="The official Minecraft SMP (Survival Multiplayer) server for Letovo School, offering a creative and competitive environment for students."
+              media={[
+                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169334/lukres.dev/hxqurbpc.png",
+                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169340/lukres.dev/iqmj4yt9.png",
+                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169368/lukres.dev/senhgz35.png",
+                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169371/lukres.dev/szqbp2a5.png",
+                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169352/lukres.dev/oqjxmafb.png",
+                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169321/lukres.dev/b80fm686.png",
+                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169263/lukres.dev/0uiqieur.png"
+              ]}
+              myRole="Co-Founder, Developer, Suport"
+              timeline="November 2022 - August 2023"
+              delay={0.2}
+              gradient="bg-gradient-to-br"
+          />
             <ProjectCard
                 url="https://lukres.dev/home"
                 title="LuKres.dev"
@@ -132,7 +153,7 @@ export default function Projects() {
                 ]}
                 myRole="Founder, Developer"
                 timeline="April 2024 - Present"
-                delay={0.2}
+                delay={0.1}
                 gradient="bg-gradient-to-br"
             />
           </ul>
