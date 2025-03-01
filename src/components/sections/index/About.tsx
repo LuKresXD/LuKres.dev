@@ -1,4 +1,5 @@
 import AboutCard from "@/components/AboutCard";
+import EducationCard from "@/components/EducationCard";
 import { Presence, Tech } from "../../../../typings";
 import { motion } from "framer-motion";
 import PresenceCard from "@/components/PresenceCard";
@@ -93,10 +94,10 @@ export default function About() {
             <section id='about' className="max-w-4xl w-full flex flex-col mx-auto">
                 <motion.h1
                     className="text-center font-bold text-5xl mt-16"
-                    initial={{ transform: 'translateY(-30px)', opacity: 0 }}
-                    whileInView={{ transform: 'translateY(0px)', opacity: 100 }}
-                    transition={{ duration: 0.5, delay: 0.1, ease: [0.39, 0.21, 0.12, 0.96], }}
-                    viewport={{ amount: 0.1, once: true }}
+                    initial={{transform: 'translateY(-30px)', opacity: 0}}
+                    whileInView={{transform: 'translateY(0px)', opacity: 100}}
+                    transition={{duration: 0.5, delay: 0.1, ease: [0.39, 0.21, 0.12, 0.96],}}
+                    viewport={{amount: 0.1, once: true}}
                 >
                     About Me
                 </motion.h1>
@@ -146,6 +147,41 @@ export default function About() {
                             gradient="bg-gradient-to-tl"
                         />
                     }
+                </ul>
+                <motion.h1
+                    className="text-center font-bold text-5xl mt-16 mb-6"
+                    initial={{transform: 'translateY(-30px)', opacity: 0}}
+                    whileInView={{transform: 'translateY(0px)', opacity: 100}}
+                    transition={{duration: 0.5, delay: 0.1, ease: [0.39, 0.21, 0.12, 0.96],}}
+                    viewport={{amount: 0.1, once: true}}
+                >
+                    Education
+                </motion.h1>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+                    <EducationCard
+                        school="Letovo School"
+                        period="2020-2025"
+                        description="Currently completing the IB Diploma Programme with a focus on Computer Science. Gaining a strong foundation in programming, algorithms, and software development through rigorous coursework and hands-on projects."
+                        imageSrc="https://res.cloudinary.com/dygcwhekh/image/upload/v1740865047/lukres.dev/ljxfbcvnmdt6s1hrsrxd.png"
+                        status="Current"
+                        direction="left"
+                        span={1}
+                        delay={0.1}
+                        gradient="bg-gradient-to-br"
+                        websiteUrl="https://en.letovo.ru/"
+                    />
+                    <EducationCard
+                        school="University of Chicago"
+                        period="2025-2029"
+                        description="Admitted to the Bachelor of Science in Computer Science program. Planning to specialize in artificial intelligence, machine learning, and cybersecurity while engaging in research and building a strong project portfolio."
+                        imageSrc="https://res.cloudinary.com/dygcwhekh/image/upload/v1740864351/lukres.dev/esjyhco8fdd94g1cmjl8.png"
+                        status="Future"
+                        direction="right"
+                        span={1}
+                        delay={0.2}
+                        gradient="bg-gradient-to-bl"
+                        websiteUrl="https://www.uchicago.edu/"
+                    />
                 </ul>
             </section>
         </>
