@@ -45,6 +45,46 @@ export default function Projects() {
                   delay={0.1}
                   gradient="bg-gradient-to-br"
               />
+                <ProjectCard
+                    url="https://t.me/astrostars_robot"
+                    title="Astro"
+                    fullDescription={[
+                        "Astro is a specialized Telegram bot and WebApp that provides users with discounted Telegram Premium subscriptions and Stars purchases. Built with Node.js for the backend, Next.js for the WebApp interface, and Python for the Telegram bot integration, it offers a seamless purchasing experience directly within Telegram.",
+                        "The service features a comprehensive referral system where users earn 5% commission from purchases made by referred contacts. It supports multiple payment methods including TON cryptocurrency and CrystalPay, with secure transaction verification and processing to prevent fraud.",
+                        "Key technical features include real-time price calculations based on current exchange rates, secure payment processing with MongoDB transaction tracking, responsive WebApp interface designed for mobile use, and a robust user management system that handles referrals, commissions, and purchase history tracking."
+                    ]}
+                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1744360593/lukres.dev/rnsauhorwcrzvxuxauqy.png"
+                    cardDescription="Telegram bot and WebApp for purchasing discounted Telegram Premium and Stars with referral rewards."
+                    media={[
+                        "https://res.cloudinary.com/dygcwhekh/image/upload/v1744360593/lukres.dev/rnsauhorwcrzvxuxauqy.png",
+                        "https://res.cloudinary.com/dygcwhekh/image/upload/v1744360895/lukres.dev/lslzikyirwrpi2kiyn07.png"
+                    ]}
+                    myRole="Founder, Developer"
+                    timeline="March 2025 - Present"
+                    delay={0.2}
+                    gradient="bg-gradient-to-tr"
+                />
+                <ProjectCard
+                    url="https://t.me/SpyLogger_bot?start=_tgr_cKJHP1swYjYy"
+                    title="SpyLogger Bot"
+                    fullDescription={[
+                        "SpyLogger is an advanced Telegram bot designed to track message edits and deletions in users' chats, featuring real-time notifications for any message modifications. Built with Python using aiogram and asyncio, it leverages Telegram's API to monitor message changes securely.",
+                        "The bot implements complex message tracking logic, handling various media types including text, photos, videos, voice messages, and files. It includes a sophisticated subscription system with referral rewards and premium features, all managed through a MongoDB database.",
+                        "Key technical features include asynchronous message processing, robust error handling, automated database backups, and multilingual support with Russian and English localizations. The bot also incorporates a payment system integration for subscription management and uses environment variables for secure configuration."
+                    ]}
+                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg"
+                    cardDescription="Telegram bot for tracking message edits and deletions, featuring real-time notifications, subscription management, and more."
+                    media={[
+                        "https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665632/SpyLogger_1920x920_h8yvol.mp4",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665630/SpyLogger_1920x920_1_ukxal7.mp4",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665665/SpyLogger_1920x920_2_py7e7n.mp4"
+                    ]}
+                    myRole="Founder, Developer"
+                    timeline="December 2024 - Present"
+                    delay={0.1}
+                    gradient="bg-gradient-to-br"
+                />
             <ProjectCard
                 url="https://phishing.lukres.dev/"
                 title="Phishing Website Detector"
@@ -80,27 +120,6 @@ export default function Projects() {
                 delay={0.1}
                 gradient="bg-gradient-to-tr"
             />
-                <ProjectCard
-                    url="https://t.me/SpyLogger_bot?start=_tgr_cKJHP1swYjYy"
-                    title="SpyLogger Bot"
-                    fullDescription={[
-                        "SpyLogger is an advanced Telegram bot designed to track message edits and deletions in users' chats, featuring real-time notifications for any message modifications. Built with Python using aiogram and asyncio, it leverages Telegram's API to monitor message changes securely.",
-                        "The bot implements complex message tracking logic, handling various media types including text, photos, videos, voice messages, and files. It includes a sophisticated subscription system with referral rewards and premium features, all managed through a MongoDB database.",
-                        "Key technical features include asynchronous message processing, robust error handling, automated database backups, and multilingual support with Russian and English localizations. The bot also incorporates a payment system integration for subscription management and uses environment variables for secure configuration."
-                    ]}
-                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg"
-                    cardDescription="Telegram bot for tracking message edits and deletions, featuring real-time notifications, subscription management, and more."
-                    media={[
-                        "https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg",
-                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665632/SpyLogger_1920x920_h8yvol.mp4",
-                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665630/SpyLogger_1920x920_1_ukxal7.mp4",
-                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665665/SpyLogger_1920x920_2_py7e7n.mp4"
-                    ]}
-                    myRole="Founder, Developer"
-                    timeline="January 2025 - Present"
-                    delay={0.2}
-                    gradient="bg-gradient-to-br"
-                />
             <ProjectCard
                 url="https://payloads.lukres.dev"
                 title="RubberDucky Payloads"
@@ -114,7 +133,7 @@ export default function Projects() {
                 ]}
                 myRole="Founder, Developer"
                 timeline="April 2024 - Present"
-                delay={0.1}
+                delay={0.2}
                 gradient="bg-gradient-to-tl"
             />
           <ProjectCard
@@ -136,7 +155,7 @@ export default function Projects() {
               ]}
               myRole="Co-Founder, Developer, Suport"
               timeline="November 2022 - August 2023"
-              delay={0.2}
+              delay={0.1}
               gradient="bg-gradient-to-br"
           />
             <ProjectCard
@@ -153,7 +172,7 @@ export default function Projects() {
                 ]}
                 myRole="Founder, Developer"
                 timeline="April 2024 - Present"
-                delay={0.1}
+                delay={0.2}
                 gradient="bg-gradient-to-br"
             />
           </ul>

@@ -174,7 +174,7 @@ export default function About() {
                         school="University of Chicago"
                         period="2025-2029"
                         description="Admitted to the Bachelor of Science in Computer Science program. Planning to specialize in artificial intelligence, machine learning, and cybersecurity while engaging in research and building a strong project portfolio."
-                        imageSrc="https://res.cloudinary.com/dygcwhekh/image/upload/v1740864351/lukres.dev/esjyhco8fdd94g1cmjl8.png"
+                        imageSrc="https://res.cloudinary.com/dygcwhekh/image/upload/v1744357207/lukres.dev/o5avwgobruqjmklvq4zt.png"
                         status="Future"
                         direction="right"
                         span={1}
