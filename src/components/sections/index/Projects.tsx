@@ -29,7 +29,7 @@ export default function Projects() {
                   url="https://solvestream.org/"
                   title="SolveStream"
                   fullDescription={[
-                      "[IN DEVELOPMENT] SolveStream is an innovative solution for students seeking real-time help with their academic problems. Acting like a chat-roulette for education, it pairs students with professors or subject experts who can answer questions and provide guidance via live video calls. With a robust category system, students can quickly find experts in their field, while a rating system ensures high-quality assistance. SolveStream aims to bridge the gap between students and academic professionals, creating an efficient way to solve technical and academic problems without the delay of traditional forums or tutoring services. Still in development, SolveStream promises to transform how students engage with learning resources."
+                      "[ARCHIVED] SolveStream aimed to pair students with experts via real-time video to solve academic problems. Despite building core flows and UI, the project is no longer maintained due to time constraints."
                   ]}
                   cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169401/lukres.dev/8ihmkcad.png"
                   cardDescription="A revolutionary academic platform connecting students and professors via real-time video calls to solve educational challenges."
@@ -41,15 +41,32 @@ export default function Projects() {
                       "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169405/lukres.dev/bnxrty92.png"
                   ]}
                   myRole="Founder, Developer"
-                  timeline="June 2024 - Present"
+                  timeline="June 2024 - May 2025"
                   delay={0.1}
                   gradient="bg-gradient-to-br"
               />
+              {/* AutoStickers (archived) */}
+              <ProjectCard
+                    url="https://t.me/Auto_Stickers_bot"
+                    title="AutoStickers"
+                    fullDescription={[
+                        "[ARCHIVED] AutoStickers was a high-speed Telegram bot that automatically purchased new sticker packs the moment they dropped on the official store. It authenticated against the store using JWT-based sessions and implemented a custom automation flow to bypass anti-bot measures for rapid checkout.",
+                        "The service operated on a 20% commission model and handled over $152k in total purchase volume with around 2300 users. It integrated the Telegram Bot API for user flows and a dedicated database for users, orders, and accounting.",
+                        "The project is no longer relevant after @sticker_community switched to a randomized allocation system, making instant purchases infeasible."
+                    ]}
+                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1755166393/SpyLogger_1920x920_2_i4o1pe.png"
+                    cardDescription="High-speed Telegram bot that auto-buys new NFT sticker packs the moment they drop. Served ~2300 users and processed $152k in volume."
+                    media={["https://res.cloudinary.com/dygcwhekh/image/upload/v1755166393/SpyLogger_1920x920_2_i4o1pe.png"]}
+                    myRole="Founder, Developer"
+                    timeline="June 2025 - July 2025"
+                    delay={0.15}
+                    gradient="bg-gradient-to-tl"
+                />
                 <ProjectCard
-                    url="https://t.me/astrostars_robot"
+                    url="https://t.me/AstroStarUpdates"
                     title="Astro"
                     fullDescription={[
-                        "Astro is a specialized Telegram bot and WebApp that provides users with discounted Telegram Premium subscriptions and Stars purchases. Built with Node.js for the backend, Next.js for the WebApp interface, and Python for the Telegram bot integration, it offers a seamless purchasing experience directly within Telegram.",
+                        "[ARCHIVED] Astro is a specialized Telegram bot and WebApp that provides users with discounted Telegram Premium subscriptions and Stars purchases. Built with Node.js for the backend, Next.js for the WebApp interface, and Python for the Telegram bot integration, it offers a seamless purchasing experience directly within Telegram.",
                         "The service features a comprehensive referral system where users earn 5% commission from purchases made by referred contacts. It supports multiple payment methods including TON cryptocurrency and CrystalPay, with secure transaction verification and processing to prevent fraud.",
                         "Key technical features include real-time price calculations based on current exchange rates, secure payment processing with MongoDB transaction tracking, responsive WebApp interface designed for mobile use, and a robust user management system that handles referrals, commissions, and purchase history tracking."
                     ]}
@@ -60,9 +77,30 @@ export default function Projects() {
                         "https://res.cloudinary.com/dygcwhekh/image/upload/v1744360895/lukres.dev/lslzikyirwrpi2kiyn07.png"
                     ]}
                     myRole="Founder, Developer"
-                    timeline="March 2025 - Present"
+                    timeline="March 2025 - June 2025"
                     delay={0.2}
                     gradient="bg-gradient-to-tr"
+                />
+
+  
+
+                {/* Gifts Alert Bot */}
+                <ProjectCard
+                    url="https://t.me/GiftsAlertBot"
+                    title="Gifts Alert Bot"
+                    fullDescription={[
+                        "Gifts Alert Bot automates tracking of Telegram \"gifts\" and republishes them to channels you connect. It targets creators and community managers who need timely, standardized announcements.",
+                        "Users connect their channels via Telegram’s chat-sharing flow. The system assigns worker accounts as admins to enable message posting and editing. Per-channel options include toggling upgrades and emoji formatting, plus a built-in test to validate setup.",
+                        "The backend is Python-based using Aiogram 3 for the bot and Pyrogram userbot sessions for detection. Independent loops (GiftDetector and PackDetector) stream events to a notifications layer, with asyncio for concurrency and graceful shutdown. PostgreSQL stores user and channel settings.",
+                        "Monetization uses Telegram Stars with monthly and lifetime plans. The architecture supports scaling via multiple userbot sessions (SESSION_COUNT), centralized logging, and fine-grained sleep intervals to respect rate limits."
+                    ]}
+                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1755167217/SpyLogger_1920x920_3_t0ore1.png"
+                    cardDescription="Telegram bot that detects gifts/upgrades and auto-posts alerts to your channels with Stars subscriptions."
+                    media={["https://res.cloudinary.com/dygcwhekh/image/upload/v1755167217/SpyLogger_1920x920_3_t0ore1.png"]}
+                    myRole="Developer"
+                    timeline="August 2025 - Present"
+                    delay={0.16}
+                    gradient="bg-gradient-to-bl"
                 />
                 <ProjectCard
                     url="https://t.me/SpyLogger_bot?start=_tgr_cKJHP1swYjYy"

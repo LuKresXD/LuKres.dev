@@ -161,9 +161,9 @@ export default function About() {
                     <EducationCard
                         school="Letovo School"
                         period="2020-2025"
-                        description="Currently completing the IB Diploma Programme with a focus on Computer Science. Gaining a strong foundation in programming, algorithms, and software development through rigorous coursework and hands-on projects."
+                        description="Completed the IB Diploma Programme with a focus on Computer Science. Graduated with an IB score of 43, building a strong foundation in algorithms, programming, and software engineering through rigorous coursework and projects."
                         imageSrc="https://res.cloudinary.com/dygcwhekh/image/upload/v1740865047/lukres.dev/ljxfbcvnmdt6s1hrsrxd.png"
-                        status="Current"
+                        status="Completed"
                         direction="left"
                         span={1}
                         delay={0.1}
@@ -173,9 +173,9 @@ export default function About() {
                     <EducationCard
                         school="University of Chicago"
                         period="2025-2029"
-                        description="Admitted to the Bachelor of Science in Computer Science program. Planning to specialize in artificial intelligence, machine learning, and cybersecurity while engaging in research and building a strong project portfolio."
+                        description="Currently pursuing a Bachelor of Science in Computer Science. Focusing on artificial intelligence, machine learning, cybersecurity and computer science overall while engaging in research and building a strong project portfolio."
                         imageSrc="https://res.cloudinary.com/dygcwhekh/image/upload/v1744357207/lukres.dev/o5avwgobruqjmklvq4zt.png"
-                        status="Future"
+                        status="Current"
                         direction="right"
                         span={1}
                         delay={0.2}
