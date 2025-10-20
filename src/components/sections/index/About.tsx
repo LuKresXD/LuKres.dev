@@ -173,7 +173,7 @@ export default function About() {
                     <EducationCard
                         school="University of Chicago"
                         period="2025-2029"
-                        description="Currently pursuing a Bachelor of Science in Computer Science. Focusing on artificial intelligence, machine learning, cybersecurity and computer science overall while engaging in research and building a strong project portfolio."
+                        description="Currently pursuing a Bachelor of Science in Computer Science. Focusing on artificial intelligence, machine learning, quant, cybersecurity and computer science overall while engaging in research and building a strong project portfolio."
                         imageSrc="https://res.cloudinary.com/dygcwhekh/image/upload/v1744357207/lukres.dev/o5avwgobruqjmklvq4zt.png"
                         status="Current"
                         direction="right"
