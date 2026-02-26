@@ -25,6 +25,90 @@ export default function Projects() {
                         <Button label="Show More" onClick={() => setShowAll(true)} width="w-[10rem]" />
                     </div>
                 }
+
+              {/* 1. Litter Critter — MakeMIT 2026 1st Place */}
+              <ProjectCard
+                  url="https://devpost.com/software/smart-bin-z83asr"
+                  title="Litter Critter"
+                  fullDescription={[
+                      "Litter Critter is an autonomous litter-collecting robot that won 1st Place in the Sustainability Track at MakeMIT x Harvard 2026, a 24-hour hardware hackathon at MIT.",
+                      "The robot uses computer vision (Anthropic API) to detect waste, navigates toward it using a custom DC-motor drivetrain, and picks it up with a VIAM robotic arm. It then sorts each item into the correct receptacle — trash, recycling, or compost.",
+                      "Hardware: VIAM arm with servos, 80/20 aluminum chassis, Raspberry Pi 4, Seeed Studio servo driver, DC motors. Software: Python, Anthropic API for object recognition, VIAM SDK for arm control. Fabrication: 3D printing and laser cutting, all built in 24 hours."
+                  ]}
+                  cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1772132626/SpyLogger_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F_1_dc8vyw.png"
+                  cardDescription="Autonomous robot that detects, collects, and sorts litter using CV and a robotic arm. 1st Place — MakeMIT x Harvard 2026."
+                  media={[
+                      "https://res.cloudinary.com/dygcwhekh/video/upload/v1772132640/2026-02-26_12.52.40_j3jke9.mp4",
+                      "https://res.cloudinary.com/dygcwhekh/image/upload/v1772132626/SpyLogger_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F_1_dc8vyw.png",
+                      "https://res.cloudinary.com/dygcwhekh/image/upload/v1772132655/SpyLogger_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F_ud4xzb.png"
+                  ]}
+                  myRole="Software Developer"
+                  timeline="February 2026"
+                  delay={0.1}
+                  gradient="bg-gradient-to-br"
+              />
+
+              {/* 2. AutoStickers */}
+              <ProjectCard
+                    url="https://t.me/Auto_Stickers_bot"
+                    title="AutoStickers"
+                    fullDescription={[
+                        "[ARCHIVED] AutoStickers was a high-speed Telegram bot that automatically purchased new sticker packs the moment they dropped on the official store. It authenticated against the store using JWT-based sessions and implemented a custom automation flow to bypass anti-bot measures for rapid checkout.",
+                        "The service operated on a 20% commission model and handled over $152k in total purchase volume with around 2300 users. It integrated the Telegram Bot API for user flows and a dedicated database for users, orders, and accounting.",
+                        "The project is no longer relevant after @sticker_community switched to a randomized allocation system, making instant purchases infeasible."
+                    ]}
+                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1755166393/SpyLogger_1920x920_2_i4o1pe.png"
+                    cardDescription="High-speed Telegram bot that auto-buys new NFT sticker packs the moment they drop. Served ~2300 users and processed $152k in volume."
+                    media={["https://res.cloudinary.com/dygcwhekh/image/upload/v1755166393/SpyLogger_1920x920_2_i4o1pe.png"]}
+                    myRole="Founder, Developer"
+                    timeline="June 2025 - July 2025"
+                    delay={0.15}
+                    gradient="bg-gradient-to-tl"
+                />
+
+              {/* 3. SpyLogger Bot */}
+              <ProjectCard
+                    url="https://t.me/SpyLogger_bot?start=_tgr_cKJHP1swYjYy"
+                    title="SpyLogger Bot"
+                    fullDescription={[
+                        "SpyLogger is an advanced Telegram bot designed to track message edits and deletions in users' chats, featuring real-time notifications for any message modifications. Built with Python using aiogram and asyncio, it leverages Telegram's API to monitor message changes securely.",
+                        "The bot implements complex message tracking logic, handling various media types including text, photos, videos, voice messages, and files. It includes a sophisticated subscription system with referral rewards and premium features, all managed through a MongoDB database.",
+                        "Key technical features include asynchronous message processing, robust error handling, automated database backups, and multilingual support with Russian and English localizations. The bot also incorporates a payment system integration for subscription management and uses environment variables for secure configuration."
+                    ]}
+                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg"
+                    cardDescription="Telegram bot for tracking message edits and deletions, featuring real-time notifications, subscription management, and more."
+                    media={[
+                        "https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665632/SpyLogger_1920x920_h8yvol.mp4",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665630/SpyLogger_1920x920_1_ukxal7.mp4",
+                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665665/SpyLogger_1920x920_2_py7e7n.mp4"
+                    ]}
+                    myRole="Founder, Developer"
+                    timeline="December 2024 - Present"
+                    delay={0.2}
+                    gradient="bg-gradient-to-br"
+                />
+
+              {/* 4. Gifts Alert Bot */}
+              <ProjectCard
+                    url="https://t.me/GiftsAlertBot"
+                    title="Gifts Alert Bot"
+                    fullDescription={[
+                        "Gifts Alert Bot automates tracking of Telegram \"gifts\" and republishes them to channels you connect. It targets creators and community managers who need timely, standardized announcements.",
+                        "Users connect their channels via Telegram's chat-sharing flow. The system assigns worker accounts as admins to enable message posting and editing. Per-channel options include toggling upgrades and emoji formatting, plus a built-in test to validate setup.",
+                        "The backend is Python-based using Aiogram 3 for the bot and Pyrogram userbot sessions for detection. Independent loops (GiftDetector and PackDetector) stream events to a notifications layer, with asyncio for concurrency and graceful shutdown. PostgreSQL stores user and channel settings.",
+                        "Monetization uses Telegram Stars with monthly and lifetime plans. The architecture supports scaling via multiple userbot sessions (SESSION_COUNT), centralized logging, and fine-grained sleep intervals to respect rate limits."
+                    ]}
+                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1755167217/SpyLogger_1920x920_3_t0ore1.png"
+                    cardDescription="Telegram bot that detects gifts/upgrades and auto-posts alerts to your channels with Stars subscriptions."
+                    media={["https://res.cloudinary.com/dygcwhekh/image/upload/v1755167217/SpyLogger_1920x920_3_t0ore1.png"]}
+                    myRole="Developer"
+                    timeline="August 2025 - Present"
+                    delay={0.1}
+                    gradient="bg-gradient-to-bl"
+                />
+
+              {/* 5. SolveStream */}
               <ProjectCard
                   url="https://solvestream.org/"
                   title="SolveStream"
@@ -42,27 +126,12 @@ export default function Projects() {
                   ]}
                   myRole="Founder, Developer"
                   timeline="June 2024 - May 2025"
-                  delay={0.1}
+                  delay={0.15}
                   gradient="bg-gradient-to-br"
               />
-              {/* AutoStickers (archived) */}
+
+              {/* 6. Astro */}
               <ProjectCard
-                    url="https://t.me/Auto_Stickers_bot"
-                    title="AutoStickers"
-                    fullDescription={[
-                        "[ARCHIVED] AutoStickers was a high-speed Telegram bot that automatically purchased new sticker packs the moment they dropped on the official store. It authenticated against the store using JWT-based sessions and implemented a custom automation flow to bypass anti-bot measures for rapid checkout.",
-                        "The service operated on a 20% commission model and handled over $152k in total purchase volume with around 2300 users. It integrated the Telegram Bot API for user flows and a dedicated database for users, orders, and accounting.",
-                        "The project is no longer relevant after @sticker_community switched to a randomized allocation system, making instant purchases infeasible."
-                    ]}
-                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1755166393/SpyLogger_1920x920_2_i4o1pe.png"
-                    cardDescription="High-speed Telegram bot that auto-buys new NFT sticker packs the moment they drop. Served ~2300 users and processed $152k in volume."
-                    media={["https://res.cloudinary.com/dygcwhekh/image/upload/v1755166393/SpyLogger_1920x920_2_i4o1pe.png"]}
-                    myRole="Founder, Developer"
-                    timeline="June 2025 - July 2025"
-                    delay={0.15}
-                    gradient="bg-gradient-to-tl"
-                />
-                <ProjectCard
                     url="https://t.me/AstroStarUpdates"
                     title="Astro"
                     fullDescription={[
@@ -82,48 +151,8 @@ export default function Projects() {
                     gradient="bg-gradient-to-tr"
                 />
 
-  
-
-                {/* Gifts Alert Bot */}
-                <ProjectCard
-                    url="https://t.me/GiftsAlertBot"
-                    title="Gifts Alert Bot"
-                    fullDescription={[
-                        "Gifts Alert Bot automates tracking of Telegram \"gifts\" and republishes them to channels you connect. It targets creators and community managers who need timely, standardized announcements.",
-                        "Users connect their channels via Telegram’s chat-sharing flow. The system assigns worker accounts as admins to enable message posting and editing. Per-channel options include toggling upgrades and emoji formatting, plus a built-in test to validate setup.",
-                        "The backend is Python-based using Aiogram 3 for the bot and Pyrogram userbot sessions for detection. Independent loops (GiftDetector and PackDetector) stream events to a notifications layer, with asyncio for concurrency and graceful shutdown. PostgreSQL stores user and channel settings.",
-                        "Monetization uses Telegram Stars with monthly and lifetime plans. The architecture supports scaling via multiple userbot sessions (SESSION_COUNT), centralized logging, and fine-grained sleep intervals to respect rate limits."
-                    ]}
-                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1755167217/SpyLogger_1920x920_3_t0ore1.png"
-                    cardDescription="Telegram bot that detects gifts/upgrades and auto-posts alerts to your channels with Stars subscriptions."
-                    media={["https://res.cloudinary.com/dygcwhekh/image/upload/v1755167217/SpyLogger_1920x920_3_t0ore1.png"]}
-                    myRole="Developer"
-                    timeline="August 2025 - Present"
-                    delay={0.16}
-                    gradient="bg-gradient-to-bl"
-                />
-                <ProjectCard
-                    url="https://t.me/SpyLogger_bot?start=_tgr_cKJHP1swYjYy"
-                    title="SpyLogger Bot"
-                    fullDescription={[
-                        "SpyLogger is an advanced Telegram bot designed to track message edits and deletions in users' chats, featuring real-time notifications for any message modifications. Built with Python using aiogram and asyncio, it leverages Telegram's API to monitor message changes securely.",
-                        "The bot implements complex message tracking logic, handling various media types including text, photos, videos, voice messages, and files. It includes a sophisticated subscription system with referral rewards and premium features, all managed through a MongoDB database.",
-                        "Key technical features include asynchronous message processing, robust error handling, automated database backups, and multilingual support with Russian and English localizations. The bot also incorporates a payment system integration for subscription management and uses environment variables for secure configuration."
-                    ]}
-                    cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg"
-                    cardDescription="Telegram bot for tracking message edits and deletions, featuring real-time notifications, subscription management, and more."
-                    media={[
-                        "https://res.cloudinary.com/dygcwhekh/image/upload/v1737624048/SpyLogger_1920x920_mhsgts.jpg",
-                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665632/SpyLogger_1920x920_h8yvol.mp4",
-                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665630/SpyLogger_1920x920_1_ukxal7.mp4",
-                        "https://res.cloudinary.com/dygcwhekh/video/upload/v1737665665/SpyLogger_1920x920_2_py7e7n.mp4"
-                    ]}
-                    myRole="Founder, Developer"
-                    timeline="December 2024 - Present"
-                    delay={0.1}
-                    gradient="bg-gradient-to-br"
-                />
-            <ProjectCard
+              {/* 7. Phishing Website Detector */}
+              <ProjectCard
                 url="https://phishing.lukres.dev/"
                 title="Phishing Website Detector"
                 fullDescription={[
@@ -139,10 +168,12 @@ export default function Projects() {
                 ]}
                 myRole="Founder, Developer"
                 timeline="May 2024 - August 2024"
-                delay={0.2}
+                delay={0.1}
                 gradient="bg-gradient-to-bl"
-            />
-            <ProjectCard
+              />
+
+              {/* 8. Microfluidics reactor */}
+              <ProjectCard
                 url="https://lukres.dev/cas"
                 title="Microfluidics reactor"
                 fullDescription={[
@@ -155,10 +186,12 @@ export default function Projects() {
                 ]}
                 myRole="Co-Founder, Engineer"
                 timeline="November 2023 - July 2024"
-                delay={0.1}
+                delay={0.15}
                 gradient="bg-gradient-to-tr"
-            />
-            <ProjectCard
+              />
+
+              {/* 9. RubberDucky Payloads */}
+              <ProjectCard
                 url="https://payloads.lukres.dev"
                 title="RubberDucky Payloads"
                 fullDescription={[
@@ -173,30 +206,34 @@ export default function Projects() {
                 timeline="April 2024 - Present"
                 delay={0.2}
                 gradient="bg-gradient-to-tl"
-            />
-          <ProjectCard
-              url="https://discord.gg/ex8h77m49X"
-              title="Letovo SMP"
-              fullDescription={[
-                  "Letovo SMP was created to bring the students of Letovo School together in a shared online space, where they could collaborate, compete, and express their creativity. With custom plugins, regular events, and a vibrant community, Letovo SMP quickly became a beloved hub for the school's gamers. Over two years, the server saw incredible builds, survival challenges, and community-driven projects, fostering teamwork and friendly competition. While the server is no longer actively supported, it left a lasting impact on the community, creating memorable experiences for all its participants."
-              ]}
-              cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169334/lukres.dev/hxqurbpc.png"
-              cardDescription="The official Minecraft SMP (Survival Multiplayer) server for Letovo School, offering a creative and competitive environment for students."
-              media={[
-                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169334/lukres.dev/hxqurbpc.png",
-                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169340/lukres.dev/iqmj4yt9.png",
-                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169368/lukres.dev/senhgz35.png",
-                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169371/lukres.dev/szqbp2a5.png",
-                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169352/lukres.dev/oqjxmafb.png",
-                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169321/lukres.dev/b80fm686.png",
-                  "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169263/lukres.dev/0uiqieur.png"
-              ]}
-              myRole="Co-Founder, Developer, Suport"
-              timeline="November 2022 - August 2023"
-              delay={0.1}
-              gradient="bg-gradient-to-br"
-          />
-            <ProjectCard
+              />
+
+              {/* 10. Letovo SMP */}
+              <ProjectCard
+                url="https://discord.gg/ex8h77m49X"
+                title="Letovo SMP"
+                fullDescription={[
+                    "Letovo SMP was created to bring the students of Letovo School together in a shared online space, where they could collaborate, compete, and express their creativity. With custom plugins, regular events, and a vibrant community, Letovo SMP quickly became a beloved hub for the school's gamers. Over two years, the server saw incredible builds, survival challenges, and community-driven projects, fostering teamwork and friendly competition. While the server is no longer actively supported, it left a lasting impact on the community, creating memorable experiences for all its participants."
+                ]}
+                cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169334/lukres.dev/hxqurbpc.png"
+                cardDescription="The official Minecraft SMP (Survival Multiplayer) server for Letovo School, offering a creative and competitive environment for students."
+                media={[
+                    "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169334/lukres.dev/hxqurbpc.png",
+                    "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169340/lukres.dev/iqmj4yt9.png",
+                    "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169368/lukres.dev/senhgz35.png",
+                    "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169371/lukres.dev/szqbp2a5.png",
+                    "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169352/lukres.dev/oqjxmafb.png",
+                    "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169321/lukres.dev/b80fm686.png",
+                    "https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169263/lukres.dev/0uiqieur.png"
+                ]}
+                myRole="Co-Founder, Developer, Suport"
+                timeline="November 2022 - August 2023"
+                delay={0.1}
+                gradient="bg-gradient-to-br"
+              />
+
+              {/* 11. LuKres.dev */}
+              <ProjectCard
                 url="https://lukres.dev/home"
                 title="LuKres.dev"
                 fullDescription={[
@@ -210,9 +247,9 @@ export default function Projects() {
                 ]}
                 myRole="Founder, Developer"
                 timeline="April 2024 - Present"
-                delay={0.2}
+                delay={0.15}
                 gradient="bg-gradient-to-br"
-            />
+              />
           </ul>
         </section>
       </>

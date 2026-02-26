@@ -121,7 +121,7 @@ export default function About() {
                     />
                     <AboutCard
                         title="Development"
-                        description="I have about 3 years of experience with development, and I have worked with various languages and tools like Node.js, Docker, and PostgreSQL."
+                        description="I have about 4 years of experience with development, and I have worked with various languages and tools like Node.js, Docker, and PostgreSQL."
                         tech={developmentTech}
                         direction="right"
                         span={1}

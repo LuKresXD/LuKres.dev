@@ -9,7 +9,7 @@ export default function Footer() {
                     LuKres.dev - Made with NextJS, TailwindCSS, and ❤ by me
                 </p>
                 <p className="text-center font-medium brightness-75 text-base">
-                    Last updated: Aug 14th, 2025
+                    Last updated: Feb 26th, 2026
                 </p>
             </footer>
         </>
