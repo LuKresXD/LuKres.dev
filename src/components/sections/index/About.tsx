@@ -61,6 +61,11 @@ function normalizeLanyard(d: any): Presence {
         tag: user.global_name || user.username || "",
         pfp: avatar,
         status: d?.discord_status ?? "offline",
+        platform: {
+            desktop: d?.active_on_discord_desktop ? (d?.discord_status ?? null) : null,
+            mobile: d?.active_on_discord_mobile ? (d?.discord_status ?? null) : null,
+            web: d?.active_on_discord_web ? (d?.discord_status ?? null) : null,
+        },
         activities,
         badges: [],
         customStatus: custom
@@ -72,7 +77,7 @@ function normalizeLanyard(d: any): Presence {
                     : custom.emoji?.name ?? "",
             }
             : (null as any),
-    } as Presence;
+    } as unknown as Presence;
 }
 
 export default function About() {
