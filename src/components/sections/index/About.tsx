@@ -57,23 +57,27 @@ export default function About() {
     const [date, setDate] = useState(new Date());
 
     useEffect(() => {
-        const socket = new WebSocket(`wss://api.lukres.dev/presence`)
-
-        const handleOpen = () => {
-            socket.send("Connection established")
-        }
+        // Lanyard (api.lanyard.rest) — hosted Discord presence, replacing the
+        // self-hosted api.lukres.dev/presence service. Protocol: on op:1 (Hello)
+        // subscribe to the user and heartbeat every d.heartbeat_interval ms with
+        // op:3; presence arrives as op:0 events (INIT_STATE then PRESENCE_UPDATE),
+        // whose d payload matches the Presence shape the card already renders.
+        const socket = new WebSocket(`wss://api.lanyard.rest/socket`)
+        const USER_ID = "521903479971905546"
+        let heartbeat: ReturnType<typeof setInterval> | undefined
 
         const handleMessage = (event: MessageEvent) => {
-            if (event.data === "connected") return
-            if (event.data === "pong") return
-            setPresence(JSON.parse(event.data))
+            const msg = JSON.parse(event.data)
+            if (msg.op === 1) {
+                socket.send(JSON.stringify({ op: 2, d: { subscribe_to_id: USER_ID } }))
+                heartbeat = setInterval(() => {
+                    socket.send(JSON.stringify({ op: 3 }))
+                }, msg.d.heartbeat_interval)
+            } else if (msg.op === 0 && (msg.t === "INIT_STATE" || msg.t === "PRESENCE_UPDATE")) {
+                setPresence(msg.d)
+            }
         }
 
-        let ping = setInterval(() => {
-            socket.send("ping")
-        }, 10000)
-
-        socket.addEventListener("open", handleOpen)
         socket.addEventListener("message", handleMessage)
 
         const timer = setInterval(() => {
@@ -81,10 +85,9 @@ export default function About() {
         }, 1000)
 
         return () => {
-            socket.removeEventListener("open", handleOpen)
             socket.removeEventListener("message", handleMessage)
             socket.close()
-            clearInterval(ping)
+            if (heartbeat) clearInterval(heartbeat)
             clearInterval(timer)
         }
     }, [])
