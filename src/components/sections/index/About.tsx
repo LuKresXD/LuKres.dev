@@ -5,6 +5,76 @@ import { motion } from "framer-motion";
 import PresenceCard from "@/components/PresenceCard";
 import { useEffect, useState } from "react";
 
+// Discord activity type index -> name (matches discord.js ActivityType).
+const ACTIVITY_TYPE = ["Playing", "Streaming", "Listening", "Watching", "Custom", "Competing"];
+const TITLE_VERB: Record<string, string> = {
+    Playing: "Playing ", Streaming: "Streaming ", Listening: "Listening to ",
+    Watching: "Watching ", Competing: "Competing in ",
+};
+
+function resolveAssetImage(raw: string | null | undefined, applicationId: string | null): string | null {
+    if (!raw) return null;
+    if (raw.startsWith("spotify:")) return `https://i.scdn.co/image/${raw.replace("spotify:", "")}`;
+    if (raw.startsWith("mp:external")) return `https://${raw.split("https/")[1]}`;
+    if (raw.startsWith("youtube:")) return `https://i.ytimg.com/vi/${raw.split("youtube:")[1]}/hqdefault_live.jpg`;
+    return `https://cdn.discordapp.com/app-assets/${applicationId}/${raw}.png?size=4096`;
+}
+
+// Normalize a raw Lanyard presence payload into the shape PresenceCard expects
+// (mirrors the old self-hosted service's PresenceUtils/FormatUtils). Crucially,
+// every activity always gets an `assets` object, so the card never reads
+// `.largeImage` off undefined.
+function normalizeLanyard(d: any): Presence {
+    const acts: any[] = Array.isArray(d?.activities) ? d.activities : [];
+    const custom = acts.find((a) => a.type === 4 || a.name === "Custom Status");
+    const activities = acts
+        .filter((a) => a.type !== 4 && a.name !== "Custom Status")
+        .map((a) => {
+            const appId = a.application_id ?? null;
+            const type = ACTIVITY_TYPE[a.type] ?? String(a.type ?? "");
+            const largeImage = a.assets
+                ? resolveAssetImage(a.assets.large_image, appId)
+                : "https://r2.e-z.host/unknown_game.png";
+            return {
+                applicationId: appId,
+                assets: {
+                    largeImage,
+                    largeText: a.assets?.large_text ?? null,
+                    smallImage: a.assets ? resolveAssetImage(a.assets.small_image, appId) : null,
+                    smallText: a.assets?.small_text ?? null,
+                },
+                details: a.details ?? null,
+                emoji: null,
+                name: a.name ?? "",
+                title: `${TITLE_VERB[type] ?? ""}${a.name ?? ""}`,
+                state: a.state ?? null,
+                type,
+                timestamps: a.timestamps ? { start: a.timestamps.start, end: a.timestamps.end } : null,
+            };
+        });
+    const user = d?.discord_user ?? {};
+    const avatar = user.avatar
+        ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.${String(user.avatar).startsWith("a_") ? "gif" : "png"}?size=256`
+        : "";
+    return {
+        _id: user.id ?? "",
+        tag: user.global_name || user.username || "",
+        pfp: avatar,
+        status: d?.discord_status ?? "offline",
+        activities,
+        badges: [],
+        customStatus: custom
+            ? {
+                name: custom.state ?? "",
+                createdTimestamp: custom.created_at ?? 0,
+                emoji: custom.emoji?.id
+                    ? `https://cdn.discordapp.com/emojis/${custom.emoji.id}.${custom.emoji.animated ? "gif" : "png"}?size=4096`
+                    : custom.emoji?.name ?? "",
+            }
+            : (null as any),
+    } as Presence;
+}
+
 export default function About() {
 
     let cybersecurityTech: Tech[] = [
@@ -74,7 +144,7 @@ export default function About() {
                     socket.send(JSON.stringify({ op: 3 }))
                 }, msg.d.heartbeat_interval)
             } else if (msg.op === 0 && (msg.t === "INIT_STATE" || msg.t === "PRESENCE_UPDATE")) {
-                setPresence(msg.d)
+                setPresence(normalizeLanyard(msg.d))
             }
         }
 
