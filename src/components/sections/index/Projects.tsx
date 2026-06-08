@@ -26,34 +26,7 @@ export default function Projects() {
                     </div>
                 }
 
-              {/* 1. Veto — Runtime authorization for AI agents */}
-              <ProjectCard
-                  url="https://veto.tools"
-                  title="Veto"
-                  fullDescription={[
-                      "Veto is a runtime authorization layer for AI agents. MCP and OAuth prove who an agent is — Veto enforces what it's allowed to do, per-action, at runtime, with policy-as-code. Every tool call is checked against policies you define: allow, deny, or escalate, with a full audit trail.",
-                      "The engine supports five rule types: tool allowlists, denylists, parameter constraints (regex/enum/min-max), rate limiting, and time-based access. Priority-based resolution lets you layer broad allows with narrow denies. Default deny + fail closed: misconfiguration, network errors, or unmatched policies all result in a block.",
-                      "Stack: Turborepo monorepo (pnpm workspaces). Hono API on Cloudflare Workers (sub-10ms at the edge), Drizzle ORM + Neon serverless Postgres, Next.js 15 dashboard with Clerk auth, pure TypeScript policy engine with zero dependencies. Published `@useveto/node` SDK on npm and `@useveto` on PyPI, with built-in MCP middleware. 45 unit tests, ReDoS-protected regex, HMAC-SHA256 API keys, append-only audit logs, workspace-scoped multi-tenancy."
-                  ]}
-                  cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/lukres.dev/veto/landing.png"
-                  cardDescription="Runtime authorization for AI agents. Policy-as-code layer that enforces what tools agents can call, per-action, with full audit trail."
-                  media={[
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/lukres.dev/veto/landing.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/lukres.dev/veto/overview.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/lukres.dev/veto/audit-log-denied.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/lukres.dev/veto/agents.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/lukres.dev/veto/policies.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/lukres.dev/veto/agent-detail.png",
-                      "https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/lukres.dev/veto/api-keys.png"
-                  ]}
-                  myRole="Founder, Developer"
-                  timeline="April 2026 - Present"
-                  delay={0.1}
-                  gradient="bg-gradient-to-br"
-                  priority
-              />
-
-              {/* 2. Litter Critter — MakeMIT 2026 1st Place */}
+              {/* 1. Litter Critter — MakeMIT 2026 1st Place */}
               <ProjectCard
                   url="https://devpost.com/software/smart-bin-z83asr"
                   title="Litter Critter"
@@ -75,7 +48,7 @@ export default function Projects() {
                   gradient="bg-gradient-to-br"
               />
 
-              {/* 3. AutoStickers */}
+              {/* 2. AutoStickers */}
               <ProjectCard
                     url="https://t.me/Auto_Stickers_bot"
                     title="AutoStickers"
@@ -93,7 +66,7 @@ export default function Projects() {
                     gradient="bg-gradient-to-tl"
                 />
 
-              {/* 4. SpyLogger Bot */}
+              {/* 3. SpyLogger Bot */}
               <ProjectCard
                     url="https://t.me/SpyLogger_bot?start=_tgr_cKJHP1swYjYy"
                     title="SpyLogger Bot"
@@ -116,7 +89,7 @@ export default function Projects() {
                     gradient="bg-gradient-to-br"
                 />
 
-              {/* 5. Gifts Alert Bot */}
+              {/* 4. Gifts Alert Bot */}
               <ProjectCard
                     url="https://t.me/GiftsAlertBot"
                     title="Gifts Alert Bot"
@@ -135,14 +108,14 @@ export default function Projects() {
                     gradient="bg-gradient-to-bl"
                 />
 
-              {/* 6. SolveStream */}
+              {/* 5. SolveStream */}
               <ProjectCard
                   url="https://solvestream.org/"
                   title="SolveStream"
                   fullDescription={[
                       "[ARCHIVED] SolveStream aimed to pair students with experts via real-time video to solve academic problems. Despite building core flows and UI, the project is no longer maintained due to time constraints."
                   ]}
-                  cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/v1734169401/lukres.dev/8ihmkcad.png"
+                  cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169401/lukres.dev/8ihmkcad.png"
                   cardDescription="A revolutionary academic platform connecting students and professors via real-time video calls to solve educational challenges."
                   media={[
                       "https://res.cloudinary.com/dygcwhekh/video/upload/f_auto,q_auto,vc_auto/v1734169413/lukres.dev/k71k3l2g.mp4",
@@ -157,7 +130,7 @@ export default function Projects() {
                   gradient="bg-gradient-to-br"
               />
 
-              {/* 7. Astro */}
+              {/* 6. Astro */}
               <ProjectCard
                     url="https://t.me/AstroStarUpdates"
                     title="Astro"
@@ -178,14 +151,14 @@ export default function Projects() {
                     gradient="bg-gradient-to-tr"
                 />
 
-              {/* 8. Phishing Website Detector */}
+              {/* 7. Phishing Website Detector */}
               <ProjectCard
                 url="https://phishing.lukres.dev/"
                 title="Phishing Website Detector"
                 fullDescription={[
                   "Phishing Website Detector is an advanced web tool that helps users identify potentially harmful websites. With real-time URL scanning and analysis, it provides insights into whether a site is safe to use or poses a phishing risk. By checking patterns, blacklists, and various security markers, it ensures that users can navigate the internet with an extra layer of protection. Whether you're a casual user or a security professional, this tool simplifies the process of keeping your online experience safe."
                 ]}
-                cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/v1734169280/lukres.dev/6ae5hg1z.png"
+                cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169280/lukres.dev/6ae5hg1z.png"
                 cardDescription="A web tool designed to detect and analyze phishing websites in real-time, protecting users from falling victim to online fraud."
                 media={[
                     "https://res.cloudinary.com/dygcwhekh/video/upload/f_auto,q_auto,vc_auto/v1734169381/lukres.dev/vamnhb8m.mp4",
@@ -199,7 +172,7 @@ export default function Projects() {
                 gradient="bg-gradient-to-bl"
               />
 
-              {/* 9. Microfluidics reactor */}
+              {/* 8. Microfluidics reactor */}
               <ProjectCard
                 url="https://lukres.dev/cas"
                 title="Microfluidics reactor"
@@ -217,7 +190,7 @@ export default function Projects() {
                 gradient="bg-gradient-to-tr"
               />
 
-              {/* 10. RubberDucky Payloads */}
+              {/* 9. RubberDucky Payloads */}
               <ProjectCard
                 url="https://payloads.lukres.dev"
                 title="RubberDucky Payloads"
@@ -235,7 +208,7 @@ export default function Projects() {
                 gradient="bg-gradient-to-tl"
               />
 
-              {/* 11. Letovo SMP */}
+              {/* 10. Letovo SMP */}
               <ProjectCard
                 url="https://discord.gg/ex8h77m49X"
                 title="Letovo SMP"
@@ -259,14 +232,14 @@ export default function Projects() {
                 gradient="bg-gradient-to-br"
               />
 
-              {/* 12. LuKres.dev */}
+              {/* 11. LuKres.dev */}
               <ProjectCard
                 url="https://lukres.dev/home"
                 title="LuKres.dev"
                 fullDescription={[
                   "LuKres.dev is more than just a personal portfolio—it's a reflection of my journey as a developer. From showcasing my key projects to providing insights through my blog, this site serves as a hub for all things related to my development career. Whether you're looking to explore my work, learn from tutorials, or simply get in touch, LuKres.dev offers a seamless experience. Built with modern web technologies, the site demonstrates my expertise in both front-end and back-end development, while also sharing my passion for cybersecurity, game design, and AI."
                 ]}
-                cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/c_fill,g_north,w_1920,h_920,f_auto,q_auto/v1734169289/lukres.dev/8fruzhc1.png"
+                cardImage="https://res.cloudinary.com/dygcwhekh/image/upload/f_auto,q_auto/v1734169289/lukres.dev/8fruzhc1.png"
                 cardDescription="The personal website of LuKres, showcasing my projects, skills, and a blog dedicated to tech and development insights."
                 media={[
                   "https://res.cloudinary.com/dygcwhekh/video/upload/f_auto,q_auto,vc_auto/v1734169276/lukres.dev/5e9892ao.mp4",

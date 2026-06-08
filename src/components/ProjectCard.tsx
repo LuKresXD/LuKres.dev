@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 import Modal from "@/components/Modal";
 import MediaCarousel from "@/components/MediaCarousel";
 import Button from "@/components/Button";
 import LinkButton from "@/components/LinkButton";
 
-export default function ProjectCard({ url, title, fullDescription, cardDescription, cardImage, media, delay, gradient, myRole, timeline, priority }: { url?: string, title: string, fullDescription: string[], cardDescription: string, cardImage: string, media: string[], delay: number, gradient: string, myRole: string, timeline: string, priority?: boolean }) {
+export default function ProjectCard({ url, title, fullDescription, cardDescription, cardImage, media, delay, gradient, myRole, timeline }: { url?: string, title: string, fullDescription: string[], cardDescription: string, cardImage: string, media: string[], delay: number, gradient: string, myRole: string, timeline: string }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
@@ -20,16 +19,7 @@ export default function ProjectCard({ url, title, fullDescription, cardDescripti
         viewport={{ amount: 0.1, once: true }}
       >
         <div className={`p-4 flex flex-col ${gradient} from-primary to-secondary rounded-lg border-1 border-accent shadow-2xl shadow-background items-center`}>
-          <Image
-            alt=""
-            draggable={false}
-            src={cardImage}
-            width={1920}
-            height={920}
-            sizes="(min-width: 768px) 480px, 100vw"
-            priority={priority}
-            className="rounded-lg border-1 border-accent mb-4 md:grayscale md:group-hover:grayscale-0 duration-300 w-full h-auto"
-          />
+          <img alt="" draggable={false} className="rounded-lg border-1 border-accent mb-4 grayscale group-hover:grayscale-0 duration-300" src={cardImage} />
           <h2 className="text-center font-semibold text-4xl">
             {title}
           </h2>

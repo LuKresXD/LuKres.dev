@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { GridPattern } from "@/components/GridPattern";
 import Footer from "@/components/sections/index/Footer";
@@ -6,7 +5,7 @@ import { useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 import { ChevronLeft, ChevronRight, X, Play} from 'lucide-react';
-import { useInView } from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer'; // Added import
 
 interface MediaItem {
     src: string;
@@ -121,10 +120,6 @@ export default function CASProject() {
 
     return (
         <>
-            <Head>
-                <title>Microfluidics Droplet-based Reactor — LuKres.dev</title>
-                <meta name="description" content="A CAS project on a low-cost microfluidics droplet-based reactor for educational research." />
-            </Head>
             <main className='min-h-screen pattern-grid-lg text-primary overflow-x-hidden'>
                 <GridPattern
                     width={50}
@@ -413,7 +408,8 @@ export default function CASProject() {
                                     playsInline
                                     autoPlay
                                 />
-                                <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                                <div className="absolute in
+                                set-0 flex items-center justify-center bg-black/30">
                                     <Play className="w-16 h-16 text-white opacity-80"/>
                                 </div>
                                 <div
