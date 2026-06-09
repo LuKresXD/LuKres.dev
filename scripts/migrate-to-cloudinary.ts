@@ -1,4 +1,7 @@
 // scripts/migrate-to-cloudinary.ts
+const { loadEnvConfig } = require('@next/env');
+loadEnvConfig(process.cwd()); // load .env.local just like Next does
+
 const cloudinary = require('cloudinary').v2;
 const axios = require('axios');
 const fs = require('fs/promises');
@@ -22,11 +25,15 @@ interface CloudinaryUploadOptions {
     overwrite?: boolean;
 }
 
-// Configure Cloudinary
+// Configure Cloudinary — creds come from .env.local (never hardcode; see .env.example)
+const { CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET } = process.env;
+if (!CLOUDINARY_API_KEY || !CLOUDINARY_API_SECRET) {
+    throw new Error('Cloudinary creds missing — set CLOUDINARY_API_KEY and CLOUDINARY_API_SECRET in .env.local');
+}
 cloudinary.config({
-    cloud_name: 'dygcwhekh',
-    api_key: '???',
-    api_secret: '???'
+    cloud_name: CLOUDINARY_CLOUD_NAME || 'dygcwhekh',
+    api_key: CLOUDINARY_API_KEY,
+    api_secret: CLOUDINARY_API_SECRET,
 });
 
 // URLs that need migration (r2.e-z.host URLs)
